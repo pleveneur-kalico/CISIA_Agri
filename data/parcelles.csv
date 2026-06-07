@@ -1,0 +1,501 @@
+ParcelleID,Exploitant,Email,Telephone,NumSIRET,Region,Surface_ha,TypeCulture,TypeSol,Irrigation,DateMiseEnCulture,CodePostal
+P0001,,maxime.michel@free.fr,0189254563,130 195 323 40495,Hauts-de-France,143.35,Colza,Calcaire,Aspersion,2025-04-26,62000
+P0002,Hugo Mercier,hugo.mercier@sfr.fr,07 54 87 43 15,649 227 487 20328,Hauts-de-France,177.15,Vigne,Limoneux,Goutte-à-goutte,2024-03-25,59000
+P0003,Dominique Fournier,fournier.dominique@yahoo.fr,07 36 95 44 99,763 173 723 93227,Bretagne,92.72,Vigne,Limoneux,Gravitaire,2024-03-27,XXXXX
+P0004,Patrick Faure,faure.patrick@agricole.coop,+33 4 92 68 28 43,862 674 651 44438,Normandie,72.72,Maïs,Calcaire,Goutte-à-goutte,2024-02-05,50000
+P0005,Julien Moreau,moreau.julien@yahoo.fr,01 97 78 44 92,400 545 261 69470,Occitanie,53.05,Colza,Limoneux,Goutte-à-goutte,2025-03-05,66000
+P0006,Stéphane Caron,scaron@agricole.coop,,999 951 926 50306,Grand Est,189.42,Blé,Calcaire,Goutte-à-goutte,2024-03-22,55000
+P0007,André Bonnet,andre70@free.fr,+33 6 93 57 66 76,353 330 165 54313,Occitanie,44.43,Blé,Argileux,Aspersion,2024-02-28,09000
+P0008,Renée Masson,rmasson@wanadoo.fr,+33 7 62 34 22 22,462 533 520 71213,Occitanie,20.13,Tournesol,Sableux,Goutte-à-goutte,2024-03-07,66000
+P0009,Valérie David,valerie.david@gmail.com,,956 115 195 40982,Bretagne,173.0,Blé,Limoneux,Aucune,2024-05-09,56100
+P0010,Bernard Mercier,bmercier@outlook.fr,07 37 17 84 79,,Centre-Val de Loire,100.82,Colza,Limoneux,Goutte-à-goutte,2024-03-03,18000
+P0011,Colette Girard,colette.girard@agricole.coop,+33 6 84 82 76 50,309 785 833 51180,Grand Est,129.28,Tournesol,Sableux,Goutte-à-goutte,2024-05-20,57000
+P0012,François Robin,francois9@sfr.fr,06 66 79 48 88,926 769 641 11025,Hauts-de-France,187.82,Maïs,Sableux,Goutte-à-goutte,2024-03-09,62000
+P0013,Chloé Rousseau,crousseau@laposte.net,01 91 64 45 15,,Bretagne,148.38,Colza,Calcaire,Goutte-à-goutte,2024-02-23,35000
+P0014,Hélène Muller,muller.helene@wanadoo.fr,03 36 97 41 95,898 673 995 63264,Normandie,47.73,Maïs,Limoneux,Aucune,2024-03-24,50000
+P0015,Margaux Duval,margaux.duval@laposte.net,04 38 35 68 54,914 992 333 39219,Occitanie,56.08,Blé,Sableux,Gravitaire,2025-04-01,30000
+P0016,Andrée Nicolas,anicolas@gmail.com,07 65 87 75 24,690 294 360 15817,Bourgogne-Franche-Comté,-0.37,Colza,Limoneux,Gravitaire,2025-02-22,58000
+P0017,Antoine Gérard,agerard@outlook.fr,07 80 26 34 63,488 793 866 32810,Normandie,166.83,Vigne,Sableux,Aspersion,2025-04-15,14000
+P0018,Nicolas Boyer,nicolas.boyer@wanadoo.fr,0322534217,869 340 788 50687,Grand Est,9.72,Tournesol,Argileux,Aucune,2025-03-23,52000
+P0019,Isabelle Girard,isabelle55@gmail.com,0416740197,968 224 567 27477,Pays de la Loire,119.29,Tournesol,Calcaire,Aucune,2024-05-15,49000
+P0020,Hélène Mathieu,helene81@yahoo.fr,03 40 44 52 50,182 241 254 40311,Bourgogne-Franche-Comté,13.31,Tournesol,Sableux,Aucune,2025-02-07,70000
+P0021,Geneviève Caron,gcaron@agricole.coop,,871 499 973 64921,Hauts-de-France,120.85,Maïs,Calcaire,Aspersion,2025-05-16,XXXXX
+P0022,Catherine Duval,catherine60@wanadoo.fr,0162884503,778 127 185 94246,Bourgogne-Franche-Comté,10.53,Tournesol,Sableux,Aspersion,2025-04-11,70000
+P0023,Martine Blanchard,martine.blanchard@gmail.com,03 38 93 18 93,,Occitanie,4.57,Maïs,Limoneux,Aspersion,2025-02-19,65000
+P0024,Hugo Bonnet,hugo.bonnet@agricole.coop,06 49 23 84 13,689 793 484 61990,Grand Est,125.63,Blé,Sableux,Goutte-à-goutte,2024-04-18,88000
+P0025,François Chevalier,,+33 1 65 56 91 68,545 280 851 78386,Auvergne-Rhône-Alpes,155.04,Tournesol,Calcaire,Gravitaire,2025-03-27,26000
+P0026,Yves Blanc,yblanc@agricole.coop,+33 7 51 33 72 37,364 448 386 88139,Auvergne-Rhône-Alpes,38.62,Maïs,Calcaire,Aucune,2024-05-21,43000
+P0027,Étienne Martin,martin.etienne@free.fr,0367110154,663 438 460 69473,Auvergne-Rhône-Alpes,144.4,Vigne,Argileux,Aspersion,2024-03-24,07000
+P0028,Théo Perrin,theo38@free.fr,07 11 78 26 45,,Occitanie,25.69,Tournesol,Argileux,Goutte-à-goutte,2025-05-16,66000
+P0029,Claude Bonnet,cbonnet@gmail.com,,154 255 252 83772,Auvergne-Rhône-Alpes,111.84,Tournesol,Limoneux,Aucune,2025-05-10,74000
+P0030,Sylvie Morin,sylvie98@gmail.com,07 94 20 30 40,176 260 102 63545,Pays de la Loire,7.01,Vigne,Sableux,Aucune,2024-03-09,85000
+P0031,Antoine Barbier,antoine29@outlook.fr,06 19 17 31 49,944 682 395 67560,Nouvelle-Aquitaine,80.8,Vigne,Calcaire,Aucune,2024-02-14,47000
+P0032,Alain Martin,alain.martin@agricole.coop,07 83 15 32 70,552 384 285 86720,Bourgogne-Franche-Comté,18.7,Vigne,Calcaire,Gravitaire,2025-02-28,70000
+P0033,Hugo Garnier,hgarnier@outlook.fr,07 51 24 61 75,101 773 990 81118,Pays de la Loire,72.67,Tournesol,Calcaire,Goutte-à-goutte,2024-04-18,72000
+P0034,Christophe Schmitt,christophe31@agricole.coop,05 62 21 38 24,220 763 952 30181,Pays de la Loire,141.23,Tournesol,Calcaire,Aucune,2024-05-18,49000
+P0035,Marcel Henry,mhenry@gmail.com,0310344303,405 957 701 86011,Pays de la Loire,97.13,Vigne,Calcaire,Aucune,2025-03-23,53000
+P0036,René Gérard,,+33 4 94 93 29 73,229 614 704 53515,Nouvelle-Aquitaine,105.43,Tournesol,Argileux,Aspersion,2025-03-03,87000
+P0037,Catherine Roussel,croussel@sfr.fr,+33 7 79 14 89 18,800 394 332 21846,Bourgogne-Franche-Comté,140.93,Blé,Calcaire,Aspersion,2025-02-02,21000
+P0038,Bernard Vincent,bernard53@outlook.fr,05 58 89 97 40,697 246 337 70443,Auvergne-Rhône-Alpes,179.83,Tournesol,Sableux,Aspersion,2024-05-12,26000
+P0039,Maxime Mercier,mmercier@laposte.net,02 58 83 55 83,816 402 122 96275,Bourgogne-Franche-Comté,137.32,Blé,Calcaire,Gravitaire,2024-04-08,39000
+P0040,Manon Blanchard,manon.blanchard@wanadoo.fr,03 66 14 84 56,192 402 434 64460,Bretagne,175.35,Vigne,Sableux,Aspersion,2025-05-26,29200
+P0041,Margaux Michel,mmichel@free.fr,0322120246,114 370 649 26199,Pays de la Loire,52.8,Tournesol,Sableux,Goutte-à-goutte,2024-05-01,85000
+P0042,Patrick Lacroix,lacroix.patrick@yahoo.fr,02 15 14 48 73,340 650 238 60940,Pays de la Loire,139.45,Colza,Calcaire,Aspersion,2025-02-27,53000
+P0043,Martine Bernard,bernard.martine@yahoo.fr,07 79 92 55 17,294 225 968 69600,Nouvelle-Aquitaine,119.63,Blé,Argileux,Gravitaire,2024-03-26,64000
+P0044,Hélène Blanchard,helene43@free.fr,0147215199,248 233 653 42853,Bretagne,26.79,Vigne,Limoneux,Gravitaire,2024-03-09,22300
+P0045,Céline Michel,celine.michel@sfr.fr,06 88 15 94 76,758 131 162 72781,Bourgogne-Franche-Comté,142.62,Tournesol,Argileux,Goutte-à-goutte,2025-03-03,58000
+P0046,Gérard Henry,gerard.henry@agricole.coop,05 37 65 67 39,947 564 508 64524,Nouvelle-Aquitaine,51.35,Maïs,Calcaire,Goutte-à-goutte,2024-02-03,16000
+P0047,Margaux Lefebvre,lefebvre.margaux@outlook.fr,+33 3 95 64 16 46,460 206 691 76507,Grand Est,169.53,Vigne,Sableux,Goutte-à-goutte,2025-03-26,55000
+P0048,Louise Arnaud,arnaud.louise@outlook.fr,,880 416 447 56009,Occitanie,131.64,Blé,Limoneux,Goutte-à-goutte,2024-03-13,46000
+P0049,André Muller,andre.muller@agricole.coop,06 30 89 16 96,553 777 534 73656,Normandie,151.11,Blé,Sableux,Aucune,2024-04-22,50000
+P0050,Céline Duval,celine.duval@agricole.coop,06 27 42 47 51,609 864 540 33028,Bretagne,100.3,Vigne,Argileux,Aucune,2024-05-01,29000
+P0051,Colette Fontaine,colette.fontaine@hotmail.fr,07 31 89 68 98,190 547 964 23875,Grand Est,16.19,Vigne,Sableux,Aspersion,2025-03-03,57000
+P0052,Céline Chevalier,celine94@sfr.fr,06 42 35 32 87,877 771 177 33218,Pays de la Loire,116.1,Colza,Sableux,Gravitaire,2024-05-03,72000
+P0053,Étienne Masson,emasson@gmail.com,03 46 19 92 21,619 493 573 86064,Hauts-de-France,8.68,Colza,Limoneux,Gravitaire,2025-03-02,80000
+P0054,Chloé Laurent,claurent@free.fr,0591846696,481 389 496 63578,Centre-Val de Loire,126.36,Vigne,Argileux,Gravitaire,2024-05-10,18000
+P0055,Marcel Henry,marcel85@agricole.coop,07 93 99 94 60,825 186 417 83259,Bourgogne-Franche-Comté,25.99,Colza,Argileux,Aucune,2025-02-12,89000
+P0056,Catherine Caron,catherine.caron@wanadoo.fr,05 79 77 14 94,884 732 234 88282,Bourgogne-Franche-Comté,138.72,Colza,Limoneux,Aucune,2024-05-12,89000
+P0057,Christophe Roussel,christophe30@yahoo.fr,+33 7 34 57 96 83,572 887 388 60052,Hauts-de-France,163.47,Colza,Limoneux,Gravitaire,2024-05-28,59000
+P0058,Chloé Gérard,chloe98@gmail.com,0268716573,327 936 561 55820,Occitanie,75.11,Tournesol,Argileux,Gravitaire,2024-02-11,46000
+P0059,Étienne Leroy,etienne90@yahoo.fr,+33 4 88 10 20 12,955 253 661 89807,Hauts-de-France,47.91,Blé,Argileux,Aspersion,2025-05-03,60000
+P0060,,julien92@free.fr,05 55 40 83 63,784 187 636 57265,Nouvelle-Aquitaine,157.39,Colza,Argileux,Aucune,2025-02-21,16000
+P0061,,alain.dufour@sfr.fr,07 27 15 55 79,758 279 950 99742,Pays de la Loire,36.86,Maïs,Argileux,Aucune,2024-04-07,49000
+P0062,Yves Bernard,ybernard@hotmail.fr,06 46 55 16 93,227 918 476 67272,Bourgogne-Franche-Comté,77.64,Maïs,Calcaire,Aucune,2025-04-26,70000
+P0063,Françoise Mercier,mercier.francoise@outlook.fr,07 94 47 49 67,536 270 806 68183,Centre-Val de Loire,182.37,Colza,Calcaire,Gravitaire,2024-02-22,41000
+P0064,Nicolas Barbier,nbarbier@orange.fr,,,Centre-Val de Loire,6.96,Maïs,Calcaire,Gravitaire,2025-05-25,37000
+P0065,Céline Muller,celine.muller@free.fr,+33 5 59 81 25 43,820 556 319 90199,Auvergne-Rhône-Alpes,40.44,Maïs,Argileux,Aucune,2024-05-03,73000
+P0066,Antoine Vincent,antoine39@laposte.net,06 56 75 38 25,911 242 342 74752,Occitanie,93.75,Colza,Limoneux,Goutte-à-goutte,2024-04-13,65000
+P0067,Céline André,andre.celine@gmail.com,+33 4 97 76 54 26,898 664 755 87042,Bretagne,100.82,Blé,Argileux,Aspersion,2025-03-06,56000
+P0068,Daniel Perrin,perrin.daniel@laposte.net,07 88 78 21 74,706 694 257 32439,Normandie,168.58,Colza,Argileux,Goutte-à-goutte,2024-02-21,27000
+P0069,Léa Morel,morel.lea@orange.fr,07 71 41 97 61,174 805 161 30719,Pays de la Loire,68.37,Maïs,Sableux,Gravitaire,2025-05-05,85000
+P0070,Aurélie Simon,aurelie58@laposte.net,03 59 88 63 41,263 933 435 85718,Centre-Val de Loire,199.2,Tournesol,Calcaire,Gravitaire,2025-02-03,36000
+P0071,Sophie Girard,sgirard@orange.fr,+33 3 78 11 23 65,370 844 474 62855,Centre-Val de Loire,112.58,Vigne,Sableux,Goutte-à-goutte,2025-05-25,36000
+P0072,Manon Roussel,roussel.manon@hotmail.fr,07 28 35 87 75,141 146 139 27961,Centre-Val de Loire,30.21,Colza,Limoneux,Gravitaire,2025-03-13,18000
+P0073,Hélène Lambert,hlambert@outlook.fr,07 70 12 57 52,526 697 415 92478,Occitanie,131.29,Colza,Limoneux,Goutte-à-goutte,2025-03-17,12000
+P0074,Louise Martinez,louise.martinez@free.fr,+33 3 63 29 62 98,613 893 726 71814,Occitanie,112.4,Tournesol,Calcaire,Gravitaire,2024-05-18,46000
+P0075,Manon Caron,mcaron@laposte.net,06 45 81 48 38,404 889 395 37168,Pays de la Loire,186.77,Vigne,Sableux,Goutte-à-goutte,2025-05-27,49000
+P0076,Bernard Bernard,bernard.bernard@sfr.fr,06 35 78 44 81,240 211 730 86917,Grand Est,106.44,Maïs,Argileux,Goutte-à-goutte,2025-04-23,54000
+P0077,Jean Clément,jean62@yahoo.fr,07 51 46 92 17,191 767 687 40437,Hauts-de-France,7.94,Maïs,Calcaire,Aspersion,2024-05-26,80000
+P0078,,bernard.yves@gmail.com,0576291802,237 971 616 71344,Auvergne-Rhône-Alpes,32.92,Tournesol,Sableux,Aspersion,2024-04-26,63000
+P0079,Andrée Roussel,roussel.andree@hotmail.fr,02 27 71 51 41,,Bourgogne-Franche-Comté,190.83,Vigne,Argileux,Gravitaire,2025-03-02,90000
+P0080,Sylvie Roux,sylvie.roux@laposte.net,07 57 88 38 38,589 256 565 89395,Centre-Val de Loire,94.43,Colza,Limoneux,Aspersion,2024-05-17,45000
+P0081,Marcel Morin,marcel26@outlook.fr,0425601471,834 697 600 21919,Hauts-de-France,26.82,Tournesol,Calcaire,Goutte-à-goutte,2025-04-24,XXXXX
+P0082,,aarnaud@gmail.com,05 17 18 70 14,284 887 238 94085,Bourgogne-Franche-Comté,89.98,Tournesol,Calcaire,Goutte-à-goutte,2024-04-04,70000
+P0083,Céline Lefebvre,celine.lefebvre@orange.fr,+33 6 79 64 78 58,353 571 454 30332,Auvergne-Rhône-Alpes,153.22,Blé,Calcaire,Goutte-à-goutte,2024-03-03,69000
+P0084,Christophe Henry,christophe.henry@free.fr,06 79 37 17 27,396 339 935 85511,Centre-Val de Loire,163.77,Maïs,Sableux,Aspersion,2024-05-10,36000
+P0085,Émilie Schmitt,eschmitt@hotmail.fr,,758 787 490 78742,Centre-Val de Loire,60.33,Maïs,Calcaire,Aspersion,2024-04-28,28000
+P0086,Marcel Dubois,marcel68@outlook.fr,07 36 52 92 20,967 479 194 80206,Grand Est,121.19,Blé,Argileux,Aspersion,2024-05-07,88000
+P0087,,slacroix@gmail.com,0263235053,665 429 894 47101,Bourgogne-Franche-Comté,62.03,Vigne,Calcaire,Aucune,2024-05-25,89000
+P0088,Nathalie Fontaine,nathalie95@free.fr,,698 693 837 64732,Auvergne-Rhône-Alpes,76.28,Maïs,Calcaire,Gravitaire,2025-05-24,43000
+P0089,Sophie Roux,sroux@wanadoo.fr,0180322629,,Nouvelle-Aquitaine,152.99,Tournesol,Limoneux,Aspersion,2024-03-01,86000
+P0090,Nathalie Dubois,ndubois@agricole.coop,,521 112 117 79391,Auvergne-Rhône-Alpes,100.69,Tournesol,Limoneux,Goutte-à-goutte,2024-03-08,01000
+P0091,Alain Arnaud,aarnaud@gmail.com,06 99 38 48 97,182 769 978 95182,Occitanie,110.76,Blé,Argileux,Aspersion,2024-05-28,46000
+P0092,Sébastien Gérard,sebastien30@orange.fr,0446385762,,Nouvelle-Aquitaine,108.83,Blé,Limoneux,Gravitaire,2024-03-19,79000
+P0093,Odette Moreau,moreau.odette@agricole.coop,06 98 20 74 54,,Bourgogne-Franche-Comté,121.23,Colza,Calcaire,Gravitaire,2024-04-26,90000
+P0094,René Vincent,rvincent@wanadoo.fr,0343077929,184 374 257 59807,Bretagne,21.76,Blé,Sableux,Aucune,2025-04-04,22000
+P0095,Valérie Blanc,valerie.blanc@gmail.com,05 86 51 59 11,497 897 186 83339,Grand Est,76.46,Maïs,Sableux,Gravitaire,2025-05-05,10000
+P0096,Martine André,martine33@sfr.fr,+33 5 88 35 68 23,106 505 440 91289,Bourgogne-Franche-Comté,67.28,Colza,Limoneux,Gravitaire,2025-03-16,70000
+P0097,Patrick Rivière,riviere.patrick@agricole.coop,+33 3 24 82 35 85,284 798 886 82102,Occitanie,141.82,Tournesol,Sableux,Goutte-à-goutte,2025-05-05,11000
+P0098,Alain Duval,aduval@hotmail.fr,+33 5 61 78 74 98,137 909 468 80373,Normandie,153.91,Vigne,Limoneux,Goutte-à-goutte,2025-04-26,76000
+P0099,Michel Bonnet,michel75@outlook.fr,+33 4 96 85 98 74,125 594 207 48722,Bourgogne-Franche-Comté,166.35,Maïs,Sableux,Gravitaire,2025-05-26,90000
+P0100,Daniel Boyer,daniel.boyer@yahoo.fr,01 53 92 23 96,858 349 628 32865,Hauts-de-France,191.71,Maïs,Calcaire,Aspersion,2024-05-13,XXXXX
+P0101,Camille Schmitt,camille1@hotmail.fr,05 23 78 33 56,568 216 368 97910,Pays de la Loire,119.6,Colza,Calcaire,Goutte-à-goutte,2025-04-28,49000
+P0102,Benoît Picard,benoit.picard@agricole.coop,07 25 40 49 24,810 244 623 60916,Bourgogne-Franche-Comté,84.9,Tournesol,Limoneux,Aspersion,2025-04-05,90000
+P0103,Camille Dubois,camille18@yahoo.fr,0597653539,801 603 525 68176,Pays de la Loire,159.28,Maïs,Sableux,Goutte-à-goutte,2025-03-18,53000
+P0104,Sébastien Dufour,sebastien.dufour@outlook.fr,0382751830,142 878 836 67850,Hauts-de-France,147.33,Maïs,Sableux,Goutte-à-goutte,2025-04-12,59000
+P0105,Christophe Renaud,renaud.christophe@free.fr,0432277675,903 311 933 37124,Occitanie,119.57,Maïs,Sableux,Gravitaire,2025-04-28,34000
+P0106,Jacques Blanchard,jacques84@laposte.net,06 41 28 51 41,792 502 601 28634,Normandie,75.35,Blé,Argileux,Aucune,2025-04-15,27000
+P0107,Émilie Dupont,edupont@gmail.com,07 18 78 60 37,944 316 606 45197,Centre-Val de Loire,115.8,Colza,Calcaire,Gravitaire,2024-02-04,28000
+P0108,Pierre Michel,pmichel@yahoo.fr,06 93 48 30 45,469 356 184 58738,Bretagne,145.33,Maïs,Calcaire,Goutte-à-goutte,2024-02-07,22000
+P0109,Émilie Fournier,fournier.emilie@orange.fr,+33 6 26 71 19 39,848 925 204 23526,Centre-Val de Loire,76.85,Maïs,Limoneux,Goutte-à-goutte,2024-03-15,37000
+P0110,Maxime Dufour,maxime.dufour@yahoo.fr,06 25 85 59 54,422 910 243 42477,Auvergne-Rhône-Alpes,120.4,Colza,Sableux,Goutte-à-goutte,2025-03-17,63000
+P0111,Emma Faure,,06 73 59 24 40,708 172 640 11581,Centre-Val de Loire,172.23,Colza,Calcaire,Gravitaire,2024-05-25,36000
+P0112,François Dupont,,,618 393 743 75673,Bourgogne-Franche-Comté,128.29,Colza,Limoneux,Gravitaire,2024-04-03,89000
+P0113,Margaux Leroy,mleroy@gmail.com,06 17 41 21 65,726 723 156 50539,Bretagne,140.45,Maïs,Calcaire,Gravitaire,2025-03-12,35200
+P0114,Lucas Schmitt,schmitt.lucas@sfr.fr,07 83 90 19 73,468 156 611 84302,Bretagne,21.03,Colza,Argileux,Aspersion,2024-02-28,56000
+P0115,Marie Boyer,mboyer@wanadoo.fr,06 63 50 44 19,222 614 789 16903,Bretagne,9.66,Tournesol,Argileux,Aucune,2025-04-11,56100
+P0116,Jean Muller,jean95@laposte.net,0436229153,659 878 915 42129,Bretagne,-2.95,Maïs,Sableux,Goutte-à-goutte,2025-02-25,35200
+P0117,Michel Morel,michel8@yahoo.fr,01 39 76 62 99,569 865 186 86122,Nouvelle-Aquitaine,79.17,Colza,Argileux,Aucune,2024-03-10,16000
+P0118,Odette Barbier,obarbier@sfr.fr,02 27 84 23 29,560 577 421 63282,Nouvelle-Aquitaine,41.92,Vigne,Calcaire,Gravitaire,2024-02-06,87000
+P0119,Benoît Brunet,,07 28 21 41 55,150 793 406 44100,Bretagne,90.71,Colza,Limoneux,Goutte-à-goutte,2025-02-26,29000
+P0120,Jean Dubois,jdubois@wanadoo.fr,05 85 43 19 12,302 761 554 26880,Nouvelle-Aquitaine,66.64,Blé,Calcaire,Goutte-à-goutte,2024-05-27,86000
+P0121,Pierre Lefèvre,lefevre.pierre@free.fr,06 14 88 89 88,402 610 521 82179,Pays de la Loire,27.88,Maïs,Limoneux,Goutte-à-goutte,2025-04-16,53000
+P0122,Daniel Lacroix,daniel.lacroix@laposte.net,06 13 45 17 70,885 698 338 30922,Nouvelle-Aquitaine,106.97,Blé,Limoneux,Aucune,2025-03-06,16000
+P0123,Margaux Dufour,dufour.margaux@orange.fr,0285579195,956 929 604 81057,Auvergne-Rhône-Alpes,11.71,Colza,Limoneux,Goutte-à-goutte,2025-02-11,63000
+P0124,Margaux Lefebvre,margaux.lefebvre@sfr.fr,06 24 77 56 19,778 505 700 23242,Centre-Val de Loire,31.92,Tournesol,Calcaire,Gravitaire,2024-04-08,37000
+P0125,Gérard Lambert,gerard.lambert@wanadoo.fr,0486166246,,Normandie,122.47,Colza,Argileux,Aucune,2024-04-24,27000
+P0126,Patrick Roux,patrick.roux@sfr.fr,06 98 18 54 42,837 101 149 60585,Pays de la Loire,176.97,Tournesol,Calcaire,Gravitaire,2025-02-27,85000
+P0127,Léa Blanchard,blanchard.lea@gmail.com,,207 175 450 32296,Bourgogne-Franche-Comté,188.4,Blé,Sableux,Aucune,2024-05-21,70000
+P0128,André Dubois,dubois.andre@free.fr,07 40 22 16 60,960 602 257 17144,Centre-Val de Loire,-4.56,Colza,Calcaire,Aspersion,2024-02-07,41000
+P0129,Françoise Boyer,fboyer@hotmail.fr,07 21 92 79 59,490 478 291 68428,Occitanie,45.64,Vigne,Argileux,Aspersion,2024-02-22,09000
+P0130,Thierry Blanchard,tblanchard@hotmail.fr,+33 5 40 70 48 20,974 831 135 75811,Normandie,135.67,Colza,Limoneux,Goutte-à-goutte,2025-03-06,14000
+P0131,Jacques Bernard,jacques26@hotmail.fr,07 50 18 21 59,665 433 977 46202,Hauts-de-France,157.42,Colza,Calcaire,Goutte-à-goutte,2025-03-05,02000
+P0132,Théo Simon,simon.theo@gmail.com,07 59 93 72 83,138 276 382 62818,Bretagne,80.64,Tournesol,Sableux,Aspersion,2024-05-09,35000
+P0133,Catherine Arnaud,catherine.arnaud@yahoo.fr,06 27 48 66 51,526 719 761 21703,Grand Est,81.73,Tournesol,Sableux,Goutte-à-goutte,2024-02-10,10000
+P0134,Jacques Caron,jacques23@orange.fr,06 17 41 14 68,,Centre-Val de Loire,164.79,Colza,Calcaire,Goutte-à-goutte,2024-03-12,28000
+P0135,Andrée Renaud,renaud.andree@sfr.fr,03 13 59 16 30,898 319 977 39012,Grand Est,82.2,Blé,Argileux,Aucune,2024-03-20,51000
+P0136,Alain Henry,ahenry@laposte.net,+33 3 37 69 48 96,738 506 698 23410,Occitanie,168.74,Vigne,Sableux,Gravitaire,2024-05-03,30000
+P0137,Maxime Fontaine,maxime25@laposte.net,06 17 86 61 94,243 838 126 95904,Pays de la Loire,84.0,Tournesol,Argileux,Aspersion,2025-03-22,53000
+P0138,Marcel Duval,marcel85@wanadoo.fr,+33 2 43 81 33 97,770 191 327 56567,Grand Est,157.72,Vigne,Sableux,Gravitaire,2025-05-28,67000
+P0139,Colette Mathieu,colette61@gmail.com,+33 5 48 62 16 29,305 450 519 84632,Pays de la Loire,36.48,Blé,Calcaire,Gravitaire,2024-04-21,53000
+P0140,Martine Morel,martine.morel@wanadoo.fr,+33 6 64 61 64 71,138 646 304 58903,Occitanie,106.44,Blé,Argileux,Aspersion,2024-04-10,81000
+P0141,Nicolas Nicolas,nicolas.nicolas@orange.fr,0580345879,803 237 450 74248,Centre-Val de Loire,181.43,Tournesol,Argileux,Aspersion,2024-03-07,36000
+P0142,Nicolas Roux,roux.nicolas@orange.fr,0189715138,777 210 769 12587,Occitanie,76.36,Colza,Sableux,Aucune,2024-03-23,31000
+P0143,Sylvie André,sylvie80@laposte.net,05 89 25 46 24,609 303 723 36181,Auvergne-Rhône-Alpes,71.91,Tournesol,Sableux,Aspersion,2024-05-07,43000
+P0144,,cgirard@gmail.com,05 19 22 42 92,403 370 575 16564,Nouvelle-Aquitaine,170.52,Vigne,Sableux,Aucune,2024-02-28,33000
+P0145,Jean Gérard,jgerard@sfr.fr,07 21 57 53 33,509 567 378 60556,Pays de la Loire,159.48,Blé,Limoneux,Goutte-à-goutte,2024-02-14,53000
+P0146,Margaux Morin,margaux.morin@hotmail.fr,06 71 72 24 62,164 367 770 51187,Occitanie,153.62,Colza,Limoneux,Gravitaire,2024-05-22,65000
+P0147,Daniel Duval,daniel.duval@outlook.fr,,617 969 580 74990,Bretagne,48.56,Vigne,Argileux,Aspersion,2025-05-27,56100
+P0148,Christophe Barbier,barbier.christophe@yahoo.fr,+33 6 93 12 23 61,670 662 100 21913,Normandie,178.08,Colza,Limoneux,Aucune,2025-04-27,14000
+P0149,Dominique Guérin,guerin.dominique@agricole.coop,01 94 38 10 53,748 919 398 81786,Hauts-de-France,179.43,Tournesol,Limoneux,Aucune,2024-04-20,59000
+P0150,Odette Gérard,gerard.odette@free.fr,+33 1 91 96 85 25,561 568 774 87242,Hauts-de-France,106.31,Blé,Calcaire,Aucune,2024-03-24,59000
+P0151,Gérard Duval,gduval@outlook.fr,06 45 60 53 47,236 241 522 88974,Hauts-de-France,172.21,Colza,Limoneux,Aspersion,2024-04-22,62000
+P0152,Chloé Gautier,gautier.chloe@outlook.fr,07 81 71 84 83,827 527 790 79979,Auvergne-Rhône-Alpes,3.05,Blé,Argileux,Aucune,2024-02-22,26000
+P0153,Théo Giraud,theo.giraud@laposte.net,07 36 79 14 55,204 730 988 98542,Hauts-de-France,112.47,Maïs,Sableux,Goutte-à-goutte,2025-05-14,80000
+P0154,,aurelie57@agricole.coop,07 85 79 87 35,298 401 559 33255,Nouvelle-Aquitaine,103.01,Tournesol,Argileux,Aucune,2025-04-05,87000
+P0155,Jean Rousseau,rousseau.jean@orange.fr,0375840632,663 466 174 51662,Hauts-de-France,14.1,Colza,Limoneux,Aucune,2025-02-12,62000
+P0156,Antoine Rousseau,arousseau@agricole.coop,01 95 54 67 40,728 736 349 15226,Centre-Val de Loire,23.12,Vigne,Sableux,Goutte-à-goutte,2025-05-16,18000
+P0157,Philippe Fontaine,philippe.fontaine@wanadoo.fr,06 95 90 37 97,206 310 650 67047,Nouvelle-Aquitaine,92.12,Vigne,Argileux,Goutte-à-goutte,2024-02-06,17000
+P0158,François Morin,fmorin@hotmail.fr,+33 3 12 59 96 25,756 837 733 18288,Normandie,71.86,Colza,Argileux,Gravitaire,2025-02-10,50000
+P0159,Gérard Faure,,06 27 60 79 47,247 405 793 94926,Centre-Val de Loire,,Colza,Limoneux,Goutte-à-goutte,2024-02-19,36000
+P0160,Aurélie Laurent,alaurent@sfr.fr,0231602928,731 954 358 35470,Nouvelle-Aquitaine,170.52,Colza,Calcaire,Goutte-à-goutte,2025-02-09,47000
+P0161,Sandrine Rousseau,rousseau.sandrine@free.fr,06 50 72 67 52,413 810 698 29974,Normandie,191.75,Maïs,Argileux,Gravitaire,2024-03-23,50000
+P0162,Martine Martinez,mmartinez@sfr.fr,07 72 80 23 32,183 961 387 28350,Hauts-de-France,125.51,Blé,Argileux,Goutte-à-goutte,2025-03-02,02000
+P0163,Geneviève Robin,genevieve51@sfr.fr,0327969238,622 192 506 57692,Hauts-de-France,-3.81,Colza,Limoneux,Aspersion,2025-03-06,02000
+P0164,Antoine Renaud,antoine.renaud@yahoo.fr,+33 2 18 43 57 39,,Grand Est,77.92,Tournesol,Argileux,Goutte-à-goutte,2025-02-23,68000
+P0165,Hélène Dufour,hdufour@wanadoo.fr,05 42 58 38 76,936 988 453 73813,Pays de la Loire,,Maïs,Calcaire,Aspersion,2024-02-17,49000
+P0166,Jacqueline David,jacqueline85@gmail.com,07 24 71 96 71,704 265 762 63857,Occitanie,118.67,Maïs,Argileux,Aspersion,2024-03-09,09000
+P0167,Isabelle Henry,isabelle11@laposte.net,+33 7 71 31 38 62,913 696 940 33839,Normandie,144.98,Vigne,Calcaire,Goutte-à-goutte,2024-05-13,76000
+P0168,Philippe Perrin,philippe.perrin@hotmail.fr,0515239398,644 615 870 25403,Nouvelle-Aquitaine,120.89,Blé,Calcaire,Aucune,2025-02-23,24000
+P0169,Margaux Boyer,margaux.boyer@agricole.coop,07 71 39 20 46,656 518 363 34775,Occitanie,115.81,Blé,Argileux,Aucune,2024-04-14,66000
+P0170,Valérie Gautier,gautier.valerie@outlook.fr,+33 7 36 62 80 81,479 672 668 73407,Auvergne-Rhône-Alpes,154.95,Tournesol,Limoneux,Goutte-à-goutte,2024-05-26,42000
+P0171,Michel Morel,michel.morel@outlook.fr,01 28 70 86 65,369 327 479 20490,Normandie,196.9,Colza,Sableux,Goutte-à-goutte,2024-05-15,XXXXX
+P0172,Dominique Duval,dominique5@free.fr,03 40 93 10 30,382 898 509 56285,Bourgogne-Franche-Comté,3.57,Blé,Argileux,Gravitaire,2025-04-27,89000
+P0173,Sophie Vidal,,0184978145,,Auvergne-Rhône-Alpes,102.9,Vigne,Sableux,Aucune,2025-05-25,73000
+P0174,Louise Guérin,louise.guerin@orange.fr,+33 6 38 96 99 39,522 461 628 80208,Occitanie,57.81,Tournesol,Sableux,Goutte-à-goutte,2024-05-11,12000
+P0175,Martine David,martine64@free.fr,06 43 36 39 35,956 733 464 30446,Nouvelle-Aquitaine,191.18,Tournesol,Argileux,Goutte-à-goutte,2025-04-20,47000
+P0176,Colette Masson,cmasson@outlook.fr,0217267644,533 589 653 14268,Hauts-de-France,155.29,Tournesol,Argileux,Aucune,2025-02-01,60000
+P0177,Émilie Simon,simon.emilie@laposte.net,+33 5 53 56 33 73,529 817 870 58799,Centre-Val de Loire,36.39,Maïs,Limoneux,Goutte-à-goutte,2025-03-18,28000
+P0178,Philippe Leroy,philippe2@yahoo.fr,06 90 76 78 50,407 356 675 84427,Occitanie,12.48,Vigne,Calcaire,Goutte-à-goutte,2025-04-09,09000
+P0179,Aurélie Vidal,vidal.aurelie@hotmail.fr,0287424000,764 651 278 47304,Centre-Val de Loire,155.06,Tournesol,Argileux,Aucune,2025-05-21,37000
+P0180,Maxime Barbier,mbarbier@agricole.coop,01 30 53 39 50,398 827 373 89349,Bourgogne-Franche-Comté,172.63,Vigne,Calcaire,Aucune,2024-03-28,XXXXX
+P0181,Lucas Girard,lucas27@gmail.com,01 70 80 16 13,636 883 185 23622,Auvergne-Rhône-Alpes,186.35,Tournesol,Sableux,Aspersion,2024-04-15,42000
+P0182,Céline Martinez,,07 70 69 79 44,238 814 652 33204,Normandie,127.35,Colza,Calcaire,Gravitaire,2025-05-18,76000
+P0183,Christophe Lambert,christophe.lambert@laposte.net,06 54 46 70 78,,Pays de la Loire,2.32,Tournesol,Sableux,Aspersion,2024-04-07,85000
+P0184,Valérie Faure,valerie49@hotmail.fr,+33 6 40 76 88 98,391 764 860 79722,Auvergne-Rhône-Alpes,36.89,Vigne,Argileux,Aucune,2025-04-23,63000
+P0185,Patrick Martin,patrick.martin@orange.fr,06 66 11 39 21,605 322 450 65082,Auvergne-Rhône-Alpes,74.59,Blé,Sableux,Goutte-à-goutte,2024-02-09,38000
+P0186,Stéphane Boyer,stephane.boyer@laposte.net,06 59 66 41 14,852 889 196 78306,Grand Est,62.77,Vigne,Limoneux,Goutte-à-goutte,2024-04-16,51000
+P0187,Nathalie Schmitt,nschmitt@gmail.com,06 45 84 25 60,109 143 695 72294,Normandie,50.12,Tournesol,Argileux,Gravitaire,2024-02-12,61000
+P0188,Étienne Simon,simon.etienne@outlook.fr,+33 6 34 12 98 58,237 356 140 73609,Pays de la Loire,98.27,Colza,Limoneux,Gravitaire,2025-05-09,85000
+P0189,Marcel Renaud,renaud.marcel@wanadoo.fr,0370945449,,Hauts-de-France,4.23,Vigne,Limoneux,Gravitaire,2024-05-07,60000
+P0190,Louise Clément,clement.louise@hotmail.fr,0115875684,232 282 994 14099,Grand Est,6.85,Tournesol,Calcaire,Gravitaire,2024-04-08,57000
+P0191,Jean Vidal,jean.vidal@gmail.com,+33 7 57 17 88 44,851 172 954 49833,Nouvelle-Aquitaine,19.88,Maïs,Calcaire,Aspersion,2024-03-19,40000
+P0192,Aurélie Dufour,adufour@agricole.coop,+33 1 31 33 80 61,773 261 646 88632,Pays de la Loire,110.24,Vigne,Sableux,Aucune,2025-04-20,85000
+P0193,Monique Lefèvre,mlefevre@laposte.net,+33 1 14 46 86 12,409 106 407 39083,Grand Est,,Vigne,Limoneux,Goutte-à-goutte,2024-05-12,68000
+P0194,Nathalie Schmitt,nschmitt@laposte.net,06 19 51 71 32,806 819 690 22499,Normandie,161.76,Tournesol,Argileux,Goutte-à-goutte,2025-04-27,76000
+P0195,Colette Caron,ccaron@agricole.coop,,426 652 678 29605,Centre-Val de Loire,10.58,Tournesol,Calcaire,Goutte-à-goutte,2024-05-10,37000
+P0196,Jacques Rousseau,jrousseau@orange.fr,+33 5 65 99 26 27,302 599 504 95491,Normandie,147.27,Maïs,Limoneux,Goutte-à-goutte,2025-05-11,61000
+P0197,Françoise Michel,michel.francoise@sfr.fr,03 31 54 88 66,551 145 937 40603,Grand Est,145.83,Blé,Argileux,Goutte-à-goutte,2024-03-28,68000
+P0198,Jean Rousseau,jean.rousseau@yahoo.fr,0237353754,868 364 661 73311,Normandie,139.9,Blé,Calcaire,Goutte-à-goutte,2025-03-02,61000
+P0199,Martine Dubois,dubois.martine@gmail.com,07 23 12 47 93,489 620 826 23055,Centre-Val de Loire,18.06,Maïs,Calcaire,Goutte-à-goutte,2024-03-17,28000
+P0200,Isabelle Dufour,dufour.isabelle@sfr.fr,0318322800,999 496 934 13862,Hauts-de-France,68.69,Tournesol,Limoneux,Goutte-à-goutte,2025-03-14,62000
+P0201,Valérie Lambert,valerie17@outlook.fr,0537153619,416 805 822 78656,Bretagne,154.12,Colza,Limoneux,Gravitaire,2024-02-06,22000
+P0202,Lucas Martin,martin.lucas@hotmail.fr,07 29 34 23 26,880 726 731 44978,Normandie,46.82,Blé,Sableux,Goutte-à-goutte,2025-03-17,50000
+P0203,Chloé Gautier,chloe61@yahoo.fr,06 14 62 11 44,327 860 787 36585,Grand Est,197.13,Colza,Calcaire,Gravitaire,2025-03-14,67000
+P0204,Julien Dufour,julien.dufour@hotmail.fr,+33 4 15 41 76 78,852 140 671 60777,Hauts-de-France,38.38,Tournesol,Calcaire,Gravitaire,2025-05-06,02000
+P0205,Marcel Dubois,mdubois@yahoo.fr,0134128507,812 659 238 61520,Bourgogne-Franche-Comté,,Tournesol,Limoneux,Aucune,2024-04-11,71000
+P0206,Chloé Lemaire,lemaire.chloe@yahoo.fr,+33 6 75 88 30 58,144 886 274 53934,Normandie,32.84,Maïs,Limoneux,Goutte-à-goutte,2025-04-10,50000
+P0207,Bernard Mathieu,mathieu.bernard@free.fr,,610 656 926 10753,Normandie,117.98,Tournesol,Calcaire,Aucune,2025-02-20,14000
+P0208,Yves Clément,yves7@free.fr,07 14 28 14 95,717 405 439 21495,Occitanie,32.69,Vigne,Limoneux,Aucune,2025-02-03,46000
+P0209,Nathalie Pichon,nathalie.pichon@hotmail.fr,06 25 98 45 52,637 314 812 37400,Normandie,195.88,Colza,Argileux,Aucune,2025-05-20,27000
+P0210,Céline Morin,cmorin@wanadoo.fr,+33 4 33 88 39 47,101 221 124 70933,Nouvelle-Aquitaine,123.25,Tournesol,Calcaire,Goutte-à-goutte,2025-04-18,24000
+P0211,Jean Mathieu,mathieu.jean@gmail.com,07 10 24 97 52,841 682 730 13816,Bretagne,184.49,Tournesol,Calcaire,Goutte-à-goutte,2024-05-05,29200
+P0212,Sophie Giraud,giraud.sophie@orange.fr,07 81 78 12 36,439 918 914 56346,Nouvelle-Aquitaine,6.72,Tournesol,Limoneux,Aucune,2024-02-28,87000
+P0213,Chloé Gérard,,+33 2 57 67 48 37,279 214 483 14901,Grand Est,5.47,Tournesol,Limoneux,Aspersion,2025-05-24,68000
+P0214,Louise Fontaine,louise87@outlook.fr,04 59 76 24 10,145 803 968 87894,Nouvelle-Aquitaine,21.07,Vigne,Argileux,Gravitaire,2024-04-07,87000
+P0215,Stéphane Fontaine,stephane20@laposte.net,05 81 75 23 36,662 426 377 28554,Auvergne-Rhône-Alpes,62.62,Vigne,Calcaire,Goutte-à-goutte,2024-02-16,69000
+P0216,Michel Lefèvre,mlefevre@wanadoo.fr,07 52 35 95 78,,Pays de la Loire,160.57,Tournesol,Argileux,Aucune,2025-05-16,49000
+P0217,Jacqueline Renaud,jacqueline51@sfr.fr,07 51 68 72 13,,Nouvelle-Aquitaine,34.57,Vigne,Limoneux,Goutte-à-goutte,2025-02-11,64000
+P0218,Étienne Lambert,etienne31@hotmail.fr,+33 4 18 53 36 98,903 545 680 54852,Hauts-de-France,134.09,Colza,Calcaire,Goutte-à-goutte,2025-04-18,60000
+P0219,Andrée Lambert,alambert@gmail.com,01 37 27 84 91,875 250 776 29558,Pays de la Loire,115.8,Maïs,Limoneux,Gravitaire,2025-04-14,72000
+P0220,,nicolas.francoise@hotmail.fr,,154 100 820 83404,Centre-Val de Loire,6.72,Tournesol,Calcaire,Gravitaire,2025-05-13,37000
+P0221,Antoine David,adavid@hotmail.fr,06 27 11 19 92,,Pays de la Loire,27.59,Maïs,Calcaire,Aucune,2025-03-15,85000
+P0222,Benoît Blanc,benoit.blanc@hotmail.fr,06 74 44 62 79,134 138 681 73342,Centre-Val de Loire,138.25,Maïs,Sableux,Aucune,2024-02-08,18000
+P0223,Antoine Duval,antoine.duval@agricole.coop,0172930506,580 687 851 53452,Bourgogne-Franche-Comté,59.28,Maïs,Argileux,Gravitaire,2025-02-21,71000
+P0224,Sébastien Dubois,dubois.sebastien@agricole.coop,06 74 19 45 42,387 381 978 43679,Occitanie,182.07,Maïs,Calcaire,Gravitaire,2024-04-26,65000
+P0225,Andrée Barbier,,06 86 29 73 62,343 776 550 93568,Bretagne,69.34,Vigne,Argileux,Goutte-à-goutte,2024-05-13,56100
+P0226,Emma Blanchard,blanchard.emma@hotmail.fr,+33 1 46 67 58 96,642 799 142 22761,Hauts-de-France,86.64,Vigne,Sableux,Gravitaire,2025-02-09,60000
+P0227,Sophie Caron,sophie99@agricole.coop,06 50 80 11 96,,Nouvelle-Aquitaine,-4.51,Blé,Calcaire,Gravitaire,2024-04-09,33000
+P0228,Camille Laurent,camille.laurent@free.fr,01 87 26 58 94,763 679 922 34217,Nouvelle-Aquitaine,93.66,Blé,Calcaire,Gravitaire,2025-04-09,64000
+P0229,Martine Caron,caron.martine@orange.fr,04 35 88 60 32,211 247 653 66525,Grand Est,88.6,Vigne,Argileux,Goutte-à-goutte,2024-02-19,52000
+P0230,Pierre Pichon,ppichon@orange.fr,07 60 83 10 75,889 602 589 67154,Bourgogne-Franche-Comté,157.18,Colza,Limoneux,Goutte-à-goutte,2025-05-04,58000
+P0231,Catherine Picard,,03 78 53 20 68,396 763 307 33149,Hauts-de-France,38.61,Tournesol,Argileux,Gravitaire,2025-02-21,62000
+P0232,Jacques Bernard,jbernard@agricole.coop,0377066471,954 931 560 12151,Occitanie,144.34,Tournesol,Argileux,Aspersion,2025-03-24,34000
+P0233,Marie Dufour,marie.dufour@yahoo.fr,06 11 32 90 16,940 912 199 69793,Normandie,163.65,Blé,Argileux,Aucune,2024-02-26,27000
+P0234,Margaux Martinez,margaux16@sfr.fr,06 15 85 32 52,,Auvergne-Rhône-Alpes,139.41,Colza,Limoneux,Aucune,2024-02-05,07000
+P0235,Gérard Caron,gerard.caron@gmail.com,05 46 63 98 70,311 246 755 45513,Hauts-de-France,35.32,Blé,Limoneux,Aucune,2024-04-12,02000
+P0236,Renée Bertrand,bertrand.renee@gmail.com,0539430744,741 775 313 46231,Occitanie,137.21,Tournesol,Calcaire,Aspersion,2024-02-02,30000
+P0237,Monique Mercier,monique.mercier@yahoo.fr,0231212522,596 627 218 19287,Grand Est,65.53,Maïs,Sableux,Aspersion,2024-04-08,10000
+P0238,Colette Bertrand,cbertrand@yahoo.fr,,321 724 565 33338,Bourgogne-Franche-Comté,39.23,Vigne,Sableux,Aspersion,2025-03-02,21000
+P0239,Martine Lefebvre,lefebvre.martine@hotmail.fr,07 87 30 91 88,691 666 975 40107,Nouvelle-Aquitaine,172.51,Maïs,Calcaire,Aucune,2025-02-24,24000
+P0240,Renée Fontaine,renee.fontaine@agricole.coop,01 70 74 14 64,590 929 917 22844,Pays de la Loire,150.74,Tournesol,Limoneux,Aspersion,2025-04-08,44000
+P0241,Pierre Boyer,pierre.boyer@yahoo.fr,+33 7 27 61 33 57,820 748 101 92222,Nouvelle-Aquitaine,106.42,Vigne,Calcaire,Gravitaire,2024-02-20,33000
+P0242,Nicolas Lacroix,lacroix.nicolas@gmail.com,03 56 32 92 81,674 826 892 36832,Bretagne,23.15,Tournesol,Limoneux,Aspersion,2025-04-09,22300
+P0243,Martine Dubois,martine.dubois@yahoo.fr,0549227057,476 919 789 18601,Grand Est,16.49,Maïs,Sableux,Goutte-à-goutte,2024-03-09,54000
+P0244,Sandrine Leroy,sleroy@orange.fr,0273606441,554 855 760 12815,Auvergne-Rhône-Alpes,,Maïs,Sableux,Aucune,2025-04-16,01000
+P0245,Hélène Clément,helene40@wanadoo.fr,06 71 57 46 16,391 566 270 91085,Bretagne,194.65,Maïs,Limoneux,Aspersion,2024-02-11,56100
+P0246,Alain Muller,muller.alain@orange.fr,06 57 67 79 30,224 125 514 75459,Bretagne,31.63,Colza,Sableux,Gravitaire,2025-04-25,22000
+P0247,Margaux Morin,margaux.morin@sfr.fr,02 96 80 24 49,,Normandie,18.95,Blé,Limoneux,Aspersion,2025-03-01,50000
+P0248,Manon Duval,mduval@hotmail.fr,0517522583,469 507 251 66051,Centre-Val de Loire,,Vigne,Sableux,Gravitaire,2025-02-07,28000
+P0249,Emma André,eandre@hotmail.fr,0521553190,410 586 988 78852,Centre-Val de Loire,151.34,Blé,Argileux,Aucune,2025-05-06,18000
+P0250,Sébastien Blanchard,sblanchard@hotmail.fr,,954 699 411 74762,Hauts-de-France,158.35,Maïs,Sableux,Gravitaire,2025-02-21,80000
+P0251,Thierry David,thierry.david@free.fr,+33 1 86 56 84 71,989 364 743 99903,Pays de la Loire,74.95,Colza,Argileux,Gravitaire,2024-02-05,49000
+P0252,Daniel Roux,roux.daniel@sfr.fr,05 34 90 33 22,271 656 430 51446,Auvergne-Rhône-Alpes,72.82,Colza,Sableux,Aspersion,2024-03-17,43000
+P0253,Thierry Rousseau,thierry20@free.fr,0580551927,829 664 819 24937,Bourgogne-Franche-Comté,163.86,Blé,Calcaire,Gravitaire,2025-04-05,58000
+P0254,Andrée Brunet,andree29@gmail.com,06 98 39 49 26,180 535 807 24643,Nouvelle-Aquitaine,-2.58,Tournesol,Argileux,Aspersion,2024-02-26,47000
+P0255,Claude Boyer,claude.boyer@gmail.com,05 36 85 35 33,129 192 249 46356,Normandie,100.38,Colza,Limoneux,Goutte-à-goutte,2024-02-17,14000
+P0256,Bernard Roux,broux@gmail.com,0269010948,209 285 954 56507,Bourgogne-Franche-Comté,81.81,Vigne,Argileux,Aucune,2024-03-16,39000
+P0257,,lemaire.aurelie@gmail.com,07 97 66 38 80,975 538 293 19123,Pays de la Loire,3.05,Tournesol,Argileux,Aucune,2025-02-04,53000
+P0258,Hugo Nicolas,nicolas.hugo@wanadoo.fr,07 35 86 61 25,534 842 611 46505,Normandie,160.3,Tournesol,Sableux,Aucune,2025-05-17,50000
+P0259,Michel Michel,michel.michel@wanadoo.fr,04 96 13 32 58,434 256 410 91522,Normandie,150.45,Tournesol,Calcaire,Aspersion,2025-05-16,61000
+P0260,Catherine Barbier,catherine.barbier@orange.fr,07 58 66 68 14,,Hauts-de-France,177.0,Maïs,Calcaire,Aucune,2024-04-23,59000
+P0261,Sébastien Picard,spicard@outlook.fr,06 74 17 60 43,486 731 792 56237,Auvergne-Rhône-Alpes,,Blé,Limoneux,Gravitaire,2025-02-25,73000
+P0262,Gérard Simon,gerard.simon@hotmail.fr,06 40 92 49 85,804 167 989 49965,Nouvelle-Aquitaine,,Vigne,Argileux,Aucune,2025-05-09,XXXXX
+P0263,,nicolas.laurent@agricole.coop,+33 1 98 96 36 53,930 883 783 54504,Bretagne,87.48,Tournesol,Argileux,Aspersion,2025-04-02,22300
+P0264,Margaux Fournier,fournier.margaux@agricole.coop,0573789440,455 914 178 95398,Auvergne-Rhône-Alpes,132.86,Vigne,Limoneux,Aucune,2025-04-20,01000
+P0265,,aschmitt@wanadoo.fr,+33 3 91 78 88 65,844 741 161 78454,Grand Est,30.52,Vigne,Calcaire,Aucune,2025-02-21,10000
+P0266,Martine Arnaud,marnaud@agricole.coop,06 34 13 41 49,673 546 532 94793,Occitanie,6.31,Vigne,Limoneux,Goutte-à-goutte,2025-02-02,34000
+P0267,Patrick Henry,patrick.henry@hotmail.fr,06 40 24 83 74,634 780 948 86076,Hauts-de-France,48.0,Blé,Sableux,Gravitaire,2025-03-14,59000
+P0268,Andrée Morel,andree.morel@laposte.net,07 99 24 50 79,799 352 384 28993,Centre-Val de Loire,61.98,Colza,Argileux,Goutte-à-goutte,2024-04-18,18000
+P0269,Hugo Muller,hmuller@outlook.fr,+33 3 48 21 40 48,264 549 746 51573,Bourgogne-Franche-Comté,16.48,Tournesol,Calcaire,Aucune,2025-05-27,71000
+P0270,Hugo Bonnet,bonnet.hugo@agricole.coop,01 92 92 33 90,756 239 103 62515,Grand Est,16.91,Maïs,Limoneux,Aspersion,2025-04-15,54000
+P0271,Alain David,alain.david@laposte.net,06 60 58 83 38,,Occitanie,125.51,Blé,Calcaire,Aspersion,2025-03-02,81000
+P0272,Julien Bonnet,julien.bonnet@wanadoo.fr,,891 564 947 98291,Pays de la Loire,38.51,Vigne,Sableux,Aucune,2025-03-14,85000
+P0273,Monique Arnaud,marnaud@hotmail.fr,03 43 40 89 67,478 696 800 94834,Pays de la Loire,174.35,Tournesol,Limoneux,Aucune,2025-04-03,44000
+P0274,Claude Rousseau,claude.rousseau@sfr.fr,,490 409 504 97983,Centre-Val de Loire,8.7,Maïs,Sableux,Aspersion,2025-04-15,41000
+P0275,Chloé Perrin,chloe6@sfr.fr,07 56 65 46 43,879 370 629 51026,Bourgogne-Franche-Comté,198.92,Maïs,Calcaire,Goutte-à-goutte,2024-03-02,21000
+P0276,Laurent Bonnet,laurent.bonnet@gmail.com,0471439467,966 837 987 29405,Nouvelle-Aquitaine,57.18,Maïs,Sableux,Aspersion,2024-03-14,24000
+P0277,Louise Garnier,louise.garnier@orange.fr,0153424580,183 571 950 96447,Pays de la Loire,119.04,Blé,Sableux,Goutte-à-goutte,2025-04-24,85000
+P0278,Jacques Morel,jacques.morel@laposte.net,0561189424,361 282 345 62286,Nouvelle-Aquitaine,78.01,Tournesol,Sableux,Aspersion,2024-04-16,87000
+P0279,Geneviève Picard,genevieve48@gmail.com,+33 4 44 82 86 64,532 930 477 90460,Bretagne,8.57,Vigne,Calcaire,Aspersion,2024-05-17,29000
+P0280,Bernard Guérin,bernard39@yahoo.fr,07 41 76 64 47,664 178 146 77294,Nouvelle-Aquitaine,93.2,Colza,Sableux,Gravitaire,2025-02-25,64000
+P0281,Emma Duval,emma.duval@hotmail.fr,07 50 85 68 95,927 371 449 34535,Grand Est,121.01,Blé,Calcaire,Goutte-à-goutte,2024-05-04,XXXXX
+P0282,Léa Boyer,lboyer@agricole.coop,0363015631,189 228 238 11818,Grand Est,,Maïs,Argileux,Aspersion,2025-03-21,55000
+P0283,Philippe Laurent,philippe.laurent@yahoo.fr,06 99 66 72 70,,Pays de la Loire,114.1,Tournesol,Argileux,Gravitaire,2024-02-21,53000
+P0284,Thierry Gérard,thierry.gerard@outlook.fr,+33 5 85 88 96 72,162 640 119 65312,Normandie,178.63,Tournesol,Calcaire,Goutte-à-goutte,2025-04-15,76000
+P0285,André Rivière,andre30@yahoo.fr,07 87 94 69 26,840 828 499 64638,Centre-Val de Loire,168.98,Colza,Limoneux,Gravitaire,2024-05-05,37000
+P0286,Julien Garnier,julien39@yahoo.fr,01 55 43 55 96,947 980 615 14190,Nouvelle-Aquitaine,45.72,Colza,Limoneux,Aucune,2025-04-26,33000
+P0287,Louise Schmitt,louise.schmitt@outlook.fr,+33 7 68 24 23 88,978 204 943 83724,Occitanie,24.05,Maïs,Sableux,Aspersion,2025-05-25,34000
+P0288,Jacqueline Gautier,jgautier@gmail.com,02 70 53 46 74,372 481 832 64396,Centre-Val de Loire,150.76,Colza,Calcaire,Aspersion,2024-05-14,28000
+P0289,Dominique Perrin,dominique57@orange.fr,0121378739,511 890 268 66894,Occitanie,184.54,Maïs,Argileux,Gravitaire,2025-05-22,30000
+P0290,Lucas Dufour,lucas68@laposte.net,+33 6 36 79 89 89,814 453 931 95033,Bourgogne-Franche-Comté,17.31,Colza,Sableux,Aucune,2024-04-07,39000
+P0291,Céline Rousseau,rousseau.celine@orange.fr,07 64 74 24 17,365 742 619 56461,Nouvelle-Aquitaine,25.39,Vigne,Argileux,Aucune,2025-03-26,47000
+P0292,Sébastien Brunet,sebastien77@outlook.fr,07 95 83 96 27,632 855 353 23792,Centre-Val de Loire,155.82,Tournesol,Argileux,Aspersion,2025-05-03,28000
+P0293,Yves Lefebvre,ylefebvre@sfr.fr,0445392370,751 533 550 74165,Bourgogne-Franche-Comté,25.86,Tournesol,Limoneux,Goutte-à-goutte,2024-05-16,XXXXX
+P0294,André Clément,andre.clement@agricole.coop,0315406577,220 480 412 59081,Auvergne-Rhône-Alpes,,Maïs,Limoneux,Aucune,2024-04-10,43000
+P0295,Jean Michel,jmichel@orange.fr,0455341868,586 954 837 89391,Bretagne,92.46,Tournesol,Calcaire,Aspersion,2025-02-26,22300
+P0296,Gérard Fournier,gfournier@orange.fr,02 13 83 90 49,226 759 672 21161,Grand Est,151.64,Colza,Limoneux,Aucune,2024-02-22,54000
+P0297,Pierre Masson,pierre.masson@agricole.coop,0363928396,603 982 123 54558,Bourgogne-Franche-Comté,,Colza,Sableux,Aucune,2025-02-04,71000
+P0298,Bernard Leroy,bleroy@wanadoo.fr,05 51 33 13 17,201 427 245 64109,Centre-Val de Loire,179.95,Blé,Limoneux,Aspersion,2024-05-17,28000
+P0299,Michèle Masson,mmasson@hotmail.fr,,119 375 667 86830,Nouvelle-Aquitaine,157.15,Vigne,Calcaire,Aucune,2024-03-26,16000
+P0300,Stéphane Roux,sroux@hotmail.fr,,949 735 396 95597,Bretagne,-0.33,Tournesol,Sableux,Gravitaire,2025-04-27,35200
+P0301,Marie Roux,mroux@laposte.net,06 81 45 65 36,921 425 798 54909,Auvergne-Rhône-Alpes,54.97,Vigne,Sableux,Aspersion,2025-04-01,42000
+P0302,,lea87@orange.fr,+33 7 60 78 20 93,651 131 952 98029,Pays de la Loire,162.65,Colza,Sableux,Aucune,2024-02-04,49000
+P0303,Christophe Dupont,,07 34 21 88 90,835 326 339 74724,Centre-Val de Loire,140.96,Colza,Limoneux,Goutte-à-goutte,2024-05-04,36000
+P0304,Nicolas Garnier,nicolas87@agricole.coop,,166 230 365 84698,Grand Est,55.23,Blé,Sableux,Aucune,2024-05-21,67000
+P0305,Dominique Fontaine,dfontaine@laposte.net,0140138350,,Bourgogne-Franche-Comté,78.68,Vigne,Argileux,Goutte-à-goutte,2024-05-03,89000
+P0306,André Rousseau,arousseau@gmail.com,05 90 52 42 41,344 448 952 17134,Centre-Val de Loire,15.05,Colza,Calcaire,Goutte-à-goutte,2025-02-03,45000
+P0307,Gérard Fontaine,gfontaine@wanadoo.fr,,542 167 204 98809,Occitanie,76.6,Blé,Calcaire,Aspersion,2024-05-13,81000
+P0308,Yves Roussel,roussel.yves@orange.fr,01 11 86 18 85,298 686 229 93540,Hauts-de-France,145.06,Tournesol,Limoneux,Aspersion,2024-02-02,02000
+P0309,Valérie Chevalier,valerie75@laposte.net,07 87 53 47 57,630 700 773 98906,Bretagne,167.12,Blé,Calcaire,Gravitaire,2024-03-21,29000
+P0310,Catherine Bertrand,bertrand.catherine@yahoo.fr,0392691963,436 266 207 69546,Occitanie,127.93,Maïs,Calcaire,Aspersion,2024-05-24,46000
+P0311,Margaux Dufour,margaux.dufour@orange.fr,,,Nouvelle-Aquitaine,126.45,Vigne,Argileux,Goutte-à-goutte,2024-03-10,87000
+P0312,Lucas David,lucas.david@wanadoo.fr,07 22 12 96 27,906 213 446 37556,Auvergne-Rhône-Alpes,74.78,Maïs,Calcaire,Goutte-à-goutte,2024-03-05,63000
+P0313,Stéphane Lefèvre,stephane82@hotmail.fr,0535380862,401 908 252 52949,Grand Est,174.63,Colza,Calcaire,Aspersion,2024-05-26,57000
+P0314,André Chevalier,achevalier@outlook.fr,06 51 57 77 98,606 585 374 86177,Bourgogne-Franche-Comté,130.12,Maïs,Limoneux,Aspersion,2025-03-13,70000
+P0315,Yves Lefèvre,yves.lefevre@sfr.fr,03 66 76 55 39,576 624 736 54089,Bourgogne-Franche-Comté,73.82,Tournesol,Sableux,Gravitaire,2025-02-06,39000
+P0316,Léa Moreau,lea.moreau@outlook.fr,06 22 25 19 56,,Grand Est,50.38,Vigne,Limoneux,Aspersion,2025-02-25,88000
+P0317,Étienne Faure,etienne61@orange.fr,06 39 36 70 39,904 665 875 71438,Pays de la Loire,169.24,Tournesol,Calcaire,Aspersion,2025-05-28,72000
+P0318,Jacques Morin,morin.jacques@orange.fr,+33 4 97 61 98 78,701 123 681 14221,Bretagne,66.38,Colza,Calcaire,Aucune,2024-05-03,56000
+P0319,Laurent Simon,laurent12@laposte.net,0214302906,717 600 127 34470,Grand Est,57.12,Maïs,Sableux,Goutte-à-goutte,2025-02-12,54000
+P0320,Patrick Renaud,prenaud@gmail.com,04 36 26 36 49,826 780 586 30811,Normandie,40.99,Tournesol,Sableux,Aspersion,2024-03-15,50000
+P0321,Julien Barbier,jbarbier@agricole.coop,01 46 92 68 54,828 911 404 61260,Normandie,83.3,Maïs,Calcaire,Aucune,2025-03-23,50000
+P0322,Hugo Bernard,bernard.hugo@laposte.net,02 73 62 80 25,178 873 207 76112,Centre-Val de Loire,41.87,Blé,Calcaire,Goutte-à-goutte,2024-05-13,28000
+P0323,Dominique Bertrand,,06 51 95 69 72,184 661 772 41757,Pays de la Loire,168.39,Maïs,Argileux,Goutte-à-goutte,2024-04-04,53000
+P0324,André Moreau,,+33 3 32 37 14 96,552 813 148 93203,Hauts-de-France,179.45,Tournesol,Sableux,Aucune,2024-02-02,62000
+P0325,Odette Girard,ogirard@gmail.com,,,Grand Est,191.77,Blé,Limoneux,Aspersion,2024-05-17,88000
+P0326,Patrick Clément,pclement@outlook.fr,06 23 55 51 32,,Centre-Val de Loire,-3.94,Maïs,Argileux,Gravitaire,2025-02-03,28000
+P0327,Sylvie Caron,sylvie92@gmail.com,05 51 90 99 59,889 810 236 53522,Bretagne,63.93,Tournesol,Argileux,Gravitaire,2024-05-13,56000
+P0328,Nicolas Nicolas,,,227 416 342 66164,Grand Est,75.22,Vigne,Limoneux,Aspersion,2025-03-21,XXXXX
+P0329,Odette Lemaire,lemaire.odette@sfr.fr,05 63 92 46 13,850 439 450 41752,Grand Est,133.17,Maïs,Limoneux,Aucune,2025-03-15,57000
+P0330,Colette Garnier,colette27@wanadoo.fr,0537430524,180 536 842 71220,Auvergne-Rhône-Alpes,85.09,Colza,Limoneux,Gravitaire,2025-05-21,43000
+P0331,Françoise Muller,fmuller@yahoo.fr,+33 1 58 64 20 48,256 666 844 33029,Auvergne-Rhône-Alpes,57.0,Colza,Calcaire,Goutte-à-goutte,2025-03-23,42000
+P0332,,mbertrand@sfr.fr,+33 6 57 59 72 49,702 172 518 15089,Nouvelle-Aquitaine,39.25,Tournesol,Sableux,Gravitaire,2025-04-23,79000
+P0333,Odette Mercier,odette.mercier@orange.fr,06 43 87 68 97,353 716 692 96848,Bretagne,-1.15,Tournesol,Calcaire,Goutte-à-goutte,2024-05-06,35200
+P0334,Hugo Lambert,lambert.hugo@hotmail.fr,01 91 83 54 28,314 866 507 50383,Occitanie,0.81,Blé,Calcaire,Aucune,2025-05-06,66000
+P0335,Chloé Lefebvre,chloe58@gmail.com,02 34 43 62 66,739 211 989 93418,Bretagne,25.37,Blé,Sableux,Goutte-à-goutte,2024-05-16,29000
+P0336,Jean Dubois,jean.dubois@agricole.coop,04 87 76 44 72,445 718 539 54112,Centre-Val de Loire,63.39,Maïs,Sableux,Aucune,2025-02-12,45000
+P0337,Jean Guérin,jean.guerin@wanadoo.fr,07 99 41 57 67,774 990 586 77490,Bourgogne-Franche-Comté,,Vigne,Argileux,Gravitaire,2024-04-22,90000
+P0338,Isabelle Dufour,isabelle.dufour@hotmail.fr,07 87 34 28 76,903 977 833 76143,Occitanie,60.62,Colza,Calcaire,Aspersion,2025-02-16,11000
+P0339,Renée Morel,rmorel@gmail.com,02 51 59 45 38,781 587 786 26134,Bretagne,98.65,Vigne,Limoneux,Goutte-à-goutte,2025-05-23,22300
+P0340,Léa Gautier,lea30@hotmail.fr,07 21 24 21 53,292 862 218 85083,Centre-Val de Loire,76.35,Blé,Sableux,Goutte-à-goutte,2024-05-14,41000
+P0341,Margaux Picard,margaux76@agricole.coop,05 68 50 28 47,611 796 566 29323,Normandie,169.9,Blé,Sableux,Gravitaire,2024-04-28,50000
+P0342,Maxime Martinez,martinez.maxime@hotmail.fr,06 38 99 16 32,844 501 406 96409,Bretagne,67.81,Tournesol,Sableux,Aucune,2025-02-17,35200
+P0343,Hugo Vidal,hugo13@hotmail.fr,0150812122,267 691 240 67918,Pays de la Loire,44.02,Maïs,Argileux,Gravitaire,2024-03-13,53000
+P0344,Manon Martinez,,+33 2 16 25 75 93,544 252 742 62952,Grand Est,97.98,Colza,Limoneux,Aucune,2024-05-28,10000
+P0345,Martine Mathieu,martine.mathieu@gmail.com,0213090599,686 591 380 22393,Normandie,129.1,Tournesol,Sableux,Aspersion,2024-04-03,61000
+P0346,Andrée Faure,,0575573851,,Normandie,130.51,Maïs,Argileux,Aspersion,2024-02-18,27000
+P0347,Michèle Bernard,bernard.michele@wanadoo.fr,01 25 74 48 56,275 533 773 10011,Grand Est,104.13,Vigne,Calcaire,Aspersion,2025-04-17,88000
+P0348,Julien Robin,julien.robin@orange.fr,07 37 27 87 80,467 384 231 91567,Bourgogne-Franche-Comté,76.67,Maïs,Calcaire,Aucune,2024-04-22,71000
+P0349,Stéphane Morel,morel.stephane@free.fr,0532017488,257 423 906 66836,Bourgogne-Franche-Comté,15.97,Blé,Argileux,Aucune,2024-04-21,58000
+P0350,Louise Masson,louise.masson@laposte.net,06 58 23 25 32,996 413 702 74175,Nouvelle-Aquitaine,173.15,Colza,Sableux,Goutte-à-goutte,2024-03-11,79000
+P0351,Andrée Vincent,avincent@outlook.fr,06 43 11 97 75,773 229 246 59650,Normandie,145.22,Vigne,Limoneux,Aucune,2025-03-15,50000
+P0352,Nicolas Rivière,nicolas.riviere@free.fr,+33 7 50 21 91 20,,Grand Est,11.95,Vigne,Calcaire,Goutte-à-goutte,2025-03-16,55000
+P0353,Hugo Michel,hmichel@orange.fr,07 41 94 77 97,721 559 272 98410,Hauts-de-France,73.73,Maïs,Sableux,Goutte-à-goutte,2025-05-13,59000
+P0354,Catherine Lacroix,lacroix.catherine@gmail.com,07 37 10 90 82,412 758 627 14643,Pays de la Loire,11.97,Blé,Calcaire,Gravitaire,2025-04-04,XXXXX
+P0355,Yves Lemaire,ylemaire@gmail.com,0530630696,599 107 259 96066,Auvergne-Rhône-Alpes,60.21,Tournesol,Limoneux,Gravitaire,2024-05-22,42000
+P0356,Jacques Vincent,,06 24 34 46 15,531 861 439 14142,Bretagne,191.96,Vigne,Argileux,Aucune,2025-05-26,22000
+P0357,Patrick Blanchard,pblanchard@outlook.fr,01 26 29 54 74,,Grand Est,86.22,Colza,Argileux,Aucune,2025-04-10,10000
+P0358,Renée Roussel,renee.roussel@free.fr,06 95 64 35 70,929 205 817 75841,Normandie,118.44,Maïs,Limoneux,Goutte-à-goutte,2024-05-02,14000
+P0359,Odette Leroy,oleroy@gmail.com,07 99 91 39 38,590 162 622 65977,Occitanie,56.47,Vigne,Calcaire,Aspersion,2025-02-06,31000
+P0360,Antoine Dufour,antoine.dufour@laposte.net,07 72 56 52 48,785 113 799 82321,Bretagne,72.6,Colza,Sableux,Aspersion,2025-03-19,29000
+P0361,Jacques Mathieu,jacques84@agricole.coop,+33 1 19 79 89 53,585 879 306 79934,Bretagne,110.32,Vigne,Sableux,Gravitaire,2025-02-14,22300
+P0362,Céline Vidal,vidal.celine@wanadoo.fr,06 47 15 82 17,810 294 858 62100,Pays de la Loire,194.32,Maïs,Calcaire,Aucune,2025-05-20,49000
+P0363,Jean Roux,jroux@orange.fr,0350723023,403 825 374 82371,Nouvelle-Aquitaine,48.02,Blé,Limoneux,Gravitaire,2024-04-28,24000
+P0364,Benoît Morel,,0353561957,822 662 370 27512,Bourgogne-Franche-Comté,197.06,Blé,Sableux,Aspersion,2025-03-09,25000
+P0365,Lucas Dufour,lucas81@laposte.net,06 51 44 36 84,978 870 504 30400,Pays de la Loire,74.04,Tournesol,Argileux,Aucune,2024-05-06,49000
+P0366,Philippe Morin,morin.philippe@laposte.net,06 60 97 87 34,,Nouvelle-Aquitaine,129.2,Tournesol,Argileux,Aspersion,2024-02-13,64000
+P0367,Benoît Dupont,benoit17@orange.fr,07 28 90 86 11,109 910 208 81089,Centre-Val de Loire,28.28,Colza,Calcaire,Aspersion,2025-04-16,45000
+P0368,Stéphane Marchand,stephane.marchand@orange.fr,05 63 28 10 38,,Bourgogne-Franche-Comté,57.73,Tournesol,Argileux,Aucune,2024-02-08,39000
+P0369,Daniel Moreau,daniel6@gmail.com,0390478491,535 253 783 49526,Normandie,21.23,Tournesol,Sableux,Gravitaire,2024-02-28,14000
+P0370,Louise Gautier,lgautier@yahoo.fr,05 64 45 28 21,230 286 885 60465,Centre-Val de Loire,138.84,Tournesol,Sableux,Aspersion,2024-05-14,36000
+P0371,Stéphane Garnier,sgarnier@hotmail.fr,06 99 21 40 56,,Occitanie,27.15,Blé,Argileux,Gravitaire,2025-03-10,09000
+P0372,Odette Lacroix,odette8@free.fr,06 58 13 99 64,818 208 778 86232,Nouvelle-Aquitaine,32.06,Maïs,Sableux,Aspersion,2024-03-03,XXXXX
+P0373,Hélène Arnaud,helene96@yahoo.fr,07 70 62 53 66,811 113 393 24583,Bretagne,121.03,Maïs,Limoneux,Goutte-à-goutte,2025-05-22,56100
+P0374,Aurélie Brunet,aurelie40@outlook.fr,06 44 21 76 58,228 860 316 62481,Normandie,164.59,Colza,Argileux,Aucune,2025-04-21,50000
+P0375,André Dubois,andre.dubois@free.fr,07 87 52 13 40,654 209 166 37775,Normandie,-0.45,Maïs,Limoneux,Goutte-à-goutte,2024-04-03,61000
+P0376,Marie Morin,marie.morin@orange.fr,03 46 60 74 34,500 843 464 26976,Nouvelle-Aquitaine,100.96,Colza,Limoneux,Goutte-à-goutte,2025-05-19,33000
+P0377,Bernard Roux,bernard92@gmail.com,06 30 74 76 87,887 449 558 27196,Centre-Val de Loire,188.06,Blé,Calcaire,Aspersion,2024-02-05,28000
+P0378,,michel.barbier@laposte.net,+33 3 31 47 30 18,472 461 191 19323,Bretagne,197.24,Vigne,Calcaire,Aspersion,2024-05-02,35200
+P0379,Isabelle André,andre.isabelle@wanadoo.fr,0360154896,523 618 560 44449,Occitanie,148.34,Maïs,Argileux,Aspersion,2024-04-13,81000
+P0380,Dominique Moreau,dmoreau@gmail.com,0424645711,849 210 506 66769,Grand Est,68.81,Colza,Calcaire,Aspersion,2025-02-09,55000
+P0381,Jacqueline Boyer,jboyer@agricole.coop,,908 540 584 37973,Occitanie,,Tournesol,Sableux,Gravitaire,2024-02-05,81000
+P0382,Françoise Lambert,francoise68@hotmail.fr,07 33 16 21 64,871 404 268 36031,Centre-Val de Loire,107.33,Maïs,Calcaire,Gravitaire,2025-02-18,36000
+P0383,Philippe Moreau,moreau.philippe@wanadoo.fr,,251 611 985 51472,Nouvelle-Aquitaine,52.93,Blé,Calcaire,Aspersion,2025-02-02,24000
+P0384,Thierry Marchand,marchand.thierry@hotmail.fr,06 96 83 11 57,116 409 414 75809,Nouvelle-Aquitaine,91.47,Tournesol,Sableux,Gravitaire,2025-04-04,86000
+P0385,Valérie Muller,vmuller@outlook.fr,+33 6 46 99 89 22,925 957 206 21749,Occitanie,99.53,Colza,Argileux,Aucune,2024-04-28,11000
+P0386,Louise Guérin,guerin.louise@yahoo.fr,+33 4 92 60 10 57,619 390 374 96334,Auvergne-Rhône-Alpes,181.91,Maïs,Argileux,Aucune,2024-02-01,73000
+P0387,Hélène Arnaud,helene43@sfr.fr,+33 2 81 60 34 88,948 152 920 85740,Bourgogne-Franche-Comté,195.48,Maïs,Calcaire,Gravitaire,2024-05-08,71000
+P0388,Nicolas Michel,nicolas71@laposte.net,06 21 21 13 65,,Normandie,108.96,Blé,Calcaire,Goutte-à-goutte,2024-05-21,27000
+P0389,Andrée Girard,andree69@free.fr,+33 7 43 94 16 45,247 742 123 93674,Normandie,185.48,Blé,Argileux,Aspersion,2025-04-06,50000
+P0390,Dominique Muller,dominique.muller@gmail.com,+33 6 19 36 97 63,421 748 561 31116,Bretagne,132.1,Colza,Argileux,Goutte-à-goutte,2025-04-16,35000
+P0391,André Perrin,andre.perrin@free.fr,0530447536,473 217 322 13866,Centre-Val de Loire,138.47,Maïs,Sableux,Gravitaire,2025-03-03,36000
+P0392,Léa Rivière,lriviere@hotmail.fr,07 32 35 97 45,205 697 912 87015,Auvergne-Rhône-Alpes,144.55,Tournesol,Calcaire,Aucune,2025-04-20,74000
+P0393,Valérie Bertrand,valerie58@gmail.com,0388768256,718 946 998 94554,Hauts-de-France,,Maïs,Sableux,Aucune,2024-04-08,80000
+P0394,Nathalie Leroy,nathalie.leroy@sfr.fr,06 69 82 51 39,494 390 716 37810,Hauts-de-France,143.39,Blé,Calcaire,Aucune,2025-04-07,60000
+P0395,Sandrine Bernard,sandrine58@gmail.com,0441732012,391 118 759 85465,Occitanie,168.41,Tournesol,Argileux,Goutte-à-goutte,2025-02-03,81000
+P0396,Lucas Lambert,lambert.lucas@hotmail.fr,04 48 99 68 73,224 963 482 90999,Nouvelle-Aquitaine,2.57,Blé,Sableux,Aucune,2024-03-03,16000
+P0397,Benoît Pichon,,03 15 24 16 48,,Centre-Val de Loire,76.22,Maïs,Limoneux,Aucune,2024-03-11,36000
+P0398,Yves Gérard,yves.gerard@yahoo.fr,06 83 71 94 72,429 891 848 73269,Grand Est,142.42,Vigne,Limoneux,Aspersion,2024-02-16,67000
+P0399,Antoine Morel,morel.antoine@yahoo.fr,0578978156,878 419 825 69509,Bretagne,26.45,Vigne,Calcaire,Aucune,2024-05-07,22300
+P0400,André Picard,apicard@gmail.com,02 12 68 33 44,,Hauts-de-France,185.42,Blé,Sableux,Aucune,2024-03-13,02000
+P0401,Catherine Dubois,cdubois@orange.fr,+33 2 47 34 61 32,642 722 605 77976,Bourgogne-Franche-Comté,50.16,Blé,Limoneux,Goutte-à-goutte,2024-02-19,25000
+P0402,Stéphane Simon,ssimon@hotmail.fr,07 73 36 31 36,394 822 710 47745,Occitanie,140.24,Tournesol,Sableux,Aspersion,2024-04-22,66000
+P0403,Catherine Pichon,pichon.catherine@yahoo.fr,,178 274 795 11275,Normandie,0.7,Maïs,Calcaire,Goutte-à-goutte,2024-02-19,27000
+P0404,Hélène Fournier,helene.fournier@wanadoo.fr,07 67 72 54 79,598 359 473 70129,Occitanie,67.08,Colza,Calcaire,Goutte-à-goutte,2025-02-05,11000
+P0405,Antoine Leroy,,+33 3 36 21 34 58,380 998 741 98971,Hauts-de-France,191.68,Colza,Limoneux,Gravitaire,2025-04-13,80000
+P0406,,sylvie.bertrand@sfr.fr,+33 5 54 46 24 11,801 250 577 99249,Bretagne,111.85,Maïs,Sableux,Aucune,2025-02-26,56100
+P0407,Marie Morel,morel.marie@orange.fr,,954 100 151 42955,Bretagne,171.87,Colza,Limoneux,Goutte-à-goutte,2025-03-24,29000
+P0408,,bfournier@free.fr,03 48 86 49 32,795 996 430 85781,Bretagne,27.57,Colza,Limoneux,Gravitaire,2025-02-10,56100
+P0409,Stéphane David,stephane13@hotmail.fr,07 74 97 55 69,577 530 520 70461,Occitanie,,Tournesol,Argileux,Aspersion,2025-03-19,66000
+P0410,Camille Robin,crobin@orange.fr,04 76 68 16 20,,Nouvelle-Aquitaine,58.47,Tournesol,Sableux,Goutte-à-goutte,2024-02-23,40000
+P0411,Aurélie Dufour,dufour.aurelie@wanadoo.fr,04 89 98 35 24,,Bretagne,19.82,Maïs,Argileux,Aucune,2024-05-13,29000
+P0412,Sylvie Faure,faure.sylvie@free.fr,+33 7 94 88 25 65,122 289 245 96175,Grand Est,109.56,Tournesol,Calcaire,Gravitaire,2025-02-19,68000
+P0413,Isabelle Lefèvre,isabelle55@hotmail.fr,,677 498 111 86092,Auvergne-Rhône-Alpes,131.61,Tournesol,Argileux,Gravitaire,2024-05-24,69000
+P0414,André Vincent,avincent@free.fr,06 93 29 55 93,447 570 832 28355,Auvergne-Rhône-Alpes,184.73,Blé,Calcaire,Aucune,2025-03-19,01000
+P0415,Louise Duval,duval.louise@sfr.fr,+33 1 15 13 30 39,208 611 795 72444,Centre-Val de Loire,161.81,Maïs,Argileux,Aspersion,2025-05-03,41000
+P0416,Michèle Bernard,michele.bernard@sfr.fr,07 23 99 67 58,752 687 669 36179,Grand Est,57.57,Maïs,Limoneux,Aucune,2024-02-19,XXXXX
+P0417,Antoine Simon,asimon@orange.fr,03 33 97 92 77,952 312 684 72093,Hauts-de-France,111.96,Maïs,Argileux,Aucune,2025-05-28,59000
+P0418,Jacques Giraud,jacques.giraud@yahoo.fr,07 12 38 47 42,466 169 993 30691,Auvergne-Rhône-Alpes,170.71,Colza,Sableux,Aucune,2024-02-19,26000
+P0419,,lea.martin@free.fr,0399031467,163 341 605 19556,Normandie,153.23,Blé,Sableux,Goutte-à-goutte,2025-02-18,14000
+P0420,,,07 65 71 48 39,,Occitanie,39.64,Colza,Calcaire,Goutte-à-goutte,2025-02-13,66000
+P0421,Valérie Marchand,marchand.valerie@yahoo.fr,07 65 17 40 39,110 332 522 80283,Normandie,174.71,Maïs,Argileux,Goutte-à-goutte,2024-03-15,76000
+P0422,Patrick Vincent,pvincent@laposte.net,01 19 42 79 36,852 932 465 38873,Pays de la Loire,156.15,Vigne,Limoneux,Gravitaire,2025-02-02,53000
+P0423,Chloé Roussel,chloe67@wanadoo.fr,0226474964,935 906 245 14701,Grand Est,91.03,Blé,Argileux,Aucune,2024-04-09,68000
+P0424,Benoît Laurent,benoit.laurent@hotmail.fr,+33 4 15 38 36 58,541 645 153 96560,Auvergne-Rhône-Alpes,187.48,Colza,Sableux,Gravitaire,2024-02-11,07000
+P0425,Valérie Renaud,vrenaud@orange.fr,07 78 69 64 83,887 631 366 31305,Bourgogne-Franche-Comté,48.03,Blé,Sableux,Gravitaire,2024-03-25,58000
+P0426,,faure.sebastien@laposte.net,0126684124,776 428 956 44670,Bretagne,,Blé,Calcaire,Goutte-à-goutte,2025-05-21,56000
+P0427,Thierry Dubois,dubois.thierry@agricole.coop,+33 2 43 45 43 73,745 278 250 90995,Occitanie,37.26,Colza,Calcaire,Gravitaire,2024-03-02,30000
+P0428,Alain Martin,alain.martin@sfr.fr,07 23 19 74 66,179 342 308 52701,Normandie,83.49,Tournesol,Sableux,Aspersion,2024-04-20,27000
+P0429,Thierry Pichon,thierry.pichon@laposte.net,03 29 85 13 23,927 420 623 76608,Normandie,76.08,Colza,Argileux,Aspersion,2025-02-03,14000
+P0430,Sébastien Chevalier,sebastien.chevalier@hotmail.fr,0191483852,637 632 551 51541,Auvergne-Rhône-Alpes,182.26,Vigne,Limoneux,Gravitaire,2024-05-11,38000
+P0431,Hugo Girard,hugo.girard@hotmail.fr,0158626679,719 335 559 64899,Grand Est,25.49,Colza,Limoneux,Aucune,2024-04-26,88000
+P0432,Michèle Laurent,mlaurent@wanadoo.fr,06 33 68 11 31,369 883 667 71585,Nouvelle-Aquitaine,86.57,Maïs,Argileux,Aspersion,2025-05-12,17000
+P0433,Renée Brunet,renee.brunet@sfr.fr,01 55 67 62 90,954 546 396 72535,Bretagne,118.12,Colza,Argileux,Aspersion,2024-04-22,22300
+P0434,Patrick Blanc,patrick.blanc@laposte.net,+33 3 16 82 76 77,964 536 392 52310,Bourgogne-Franche-Comté,29.07,Maïs,Calcaire,Gravitaire,2025-02-12,25000
+P0435,Bernard Masson,masson.bernard@wanadoo.fr,02 95 45 28 22,958 620 872 32131,Occitanie,178.18,Colza,Limoneux,Goutte-à-goutte,2025-02-12,12000
+P0436,Valérie Lemaire,valerie.lemaire@yahoo.fr,04 65 73 43 21,385 849 784 25264,Centre-Val de Loire,44.88,Blé,Sableux,Aspersion,2025-04-15,36000
+P0437,Manon Caron,manon.caron@orange.fr,0335554877,776 957 998 92061,Occitanie,49.56,Colza,Calcaire,Aspersion,2024-04-16,66000
+P0438,Lucas Garnier,lucas67@gmail.com,,,Hauts-de-France,8.24,Vigne,Calcaire,Aspersion,2025-05-17,62000
+P0439,Yves Lambert,ylambert@yahoo.fr,0449650228,215 873 882 47653,Bourgogne-Franche-Comté,132.65,Blé,Limoneux,Aucune,2025-02-12,71000
+P0440,Louise Schmitt,lschmitt@yahoo.fr,03 44 74 37 62,,Centre-Val de Loire,78.58,Tournesol,Calcaire,Aucune,2025-02-09,37000
+P0441,Catherine Mathieu,catherine29@hotmail.fr,05 88 52 26 87,839 121 921 59700,Nouvelle-Aquitaine,70.86,Colza,Argileux,Goutte-à-goutte,2024-04-18,40000
+P0442,Hélène Robin,robin.helene@laposte.net,06 80 41 11 14,873 639 204 75732,Bourgogne-Franche-Comté,56.98,Blé,Limoneux,Aspersion,2024-04-24,70000
+P0443,Léa Faure,lea.faure@laposte.net,,880 850 525 12641,Occitanie,183.84,Blé,Calcaire,Aspersion,2025-04-14,31000
+P0444,Sylvie Masson,smasson@agricole.coop,02 62 81 45 71,819 646 618 42062,Bourgogne-Franche-Comté,-2.51,Tournesol,Sableux,Goutte-à-goutte,2025-03-19,70000
+P0445,Louise Fournier,fournier.louise@gmail.com,01 81 31 36 72,185 244 512 90804,Pays de la Loire,152.24,Blé,Calcaire,Gravitaire,2025-04-24,49000
+P0446,Marie Fontaine,marie35@orange.fr,+33 5 73 50 93 40,825 594 626 82719,Nouvelle-Aquitaine,15.96,Maïs,Argileux,Aspersion,2024-03-07,64000
+P0447,Marie Schmitt,marie63@outlook.fr,0463607320,,Nouvelle-Aquitaine,184.43,Vigne,Sableux,Gravitaire,2024-03-10,24000
+P0448,Margaux Roussel,mroussel@agricole.coop,07 27 31 77 70,,Bourgogne-Franche-Comté,198.67,Blé,Sableux,Aspersion,2024-02-18,25000
+P0449,Claude Roussel,claude82@sfr.fr,02 45 46 64 84,476 739 885 62857,Auvergne-Rhône-Alpes,40.92,Colza,Limoneux,Goutte-à-goutte,2024-04-06,38000
+P0450,Jacques Barbier,barbier.jacques@hotmail.fr,0438092671,902 337 321 21971,Normandie,174.99,Vigne,Argileux,Goutte-à-goutte,2024-05-14,27000
+P0451,Sylvie Chevalier,schevalier@hotmail.fr,07 49 76 50 77,,Normandie,189.13,Vigne,Limoneux,Aucune,2025-05-23,76000
+P0452,Aurélie Pichon,apichon@orange.fr,07 64 37 88 81,295 491 483 33462,Occitanie,39.38,Colza,Sableux,Gravitaire,2024-04-09,31000
+P0453,,julien.masson@yahoo.fr,07 45 90 17 83,983 835 582 89632,Pays de la Loire,175.05,Colza,Argileux,Goutte-à-goutte,2025-02-20,49000
+P0454,Chloé Dufour,chloe.dufour@gmail.com,,163 421 199 81314,Auvergne-Rhône-Alpes,122.99,Blé,Sableux,Gravitaire,2024-04-17,XXXXX
+P0455,Antoine Faure,antoine9@orange.fr,0245787268,554 145 382 89761,Grand Est,127.24,Blé,Sableux,Gravitaire,2025-02-11,57000
+P0456,Sébastien Vidal,sebastien.vidal@gmail.com,0132727871,322 753 483 70338,Nouvelle-Aquitaine,61.9,Maïs,Limoneux,Gravitaire,2024-05-23,87000
+P0457,Jacques Morin,jacques35@free.fr,07 43 99 66 43,463 692 472 55725,Hauts-de-France,166.43,Blé,Calcaire,Aspersion,2024-05-12,80000
+P0458,Monique Rousseau,monique12@laposte.net,+33 3 14 24 76 94,586 243 578 86915,Centre-Val de Loire,117.88,Blé,Sableux,Goutte-à-goutte,2025-02-06,41000
+P0459,Catherine Gautier,catherine40@sfr.fr,06 12 66 88 68,811 545 848 62341,Pays de la Loire,74.96,Vigne,Calcaire,Aucune,2025-02-08,85000
+P0460,Michel André,michel.andre@agricole.coop,06 48 86 99 77,681 869 242 27025,Centre-Val de Loire,18.53,Maïs,Sableux,Aucune,2025-03-15,XXXXX
+P0461,Jacqueline Bertrand,jacqueline24@gmail.com,+33 1 41 29 97 81,483 105 588 30883,Centre-Val de Loire,79.11,Maïs,Calcaire,Aucune,2025-03-25,28000
+P0462,Jacques Fontaine,jfontaine@sfr.fr,0156555725,858 700 127 39057,Normandie,72.77,Colza,Argileux,Aucune,2024-03-05,76000
+P0463,Monique Lambert,monique55@wanadoo.fr,+33 6 71 14 43 63,507 798 629 23950,Pays de la Loire,146.67,Tournesol,Argileux,Aspersion,2025-03-19,53000
+P0464,Jean Garnier,jean.garnier@hotmail.fr,07 91 24 87 67,899 584 829 53917,Hauts-de-France,36.18,Tournesol,Calcaire,Goutte-à-goutte,2024-02-11,02000
+P0465,Alain Bertrand,alain.bertrand@yahoo.fr,01 72 68 56 16,802 478 358 65797,Centre-Val de Loire,5.19,Vigne,Limoneux,Gravitaire,2025-05-01,41000
+P0466,Maxime Bernard,mbernard@orange.fr,05 22 26 28 91,381 453 569 90903,Grand Est,186.49,Colza,Calcaire,Goutte-à-goutte,2024-04-12,XXXXX
+P0467,Julien Lemaire,julien.lemaire@hotmail.fr,07 64 61 12 33,363 838 768 20391,Bourgogne-Franche-Comté,114.39,Vigne,Limoneux,Goutte-à-goutte,2025-05-07,70000
+P0468,Martine Dufour,martine.dufour@outlook.fr,06 96 46 44 10,119 900 524 96142,Bretagne,158.16,Vigne,Argileux,Aspersion,2024-02-23,29000
+P0469,Camille Rivière,criviere@yahoo.fr,07 79 59 70 81,,Centre-Val de Loire,30.78,Tournesol,Limoneux,Aspersion,2025-04-13,XXXXX
+P0470,Dominique Morin,dominique.morin@outlook.fr,0350806582,422 562 790 71260,Occitanie,125.04,Colza,Calcaire,Aucune,2024-04-18,11000
+P0471,Gérard Lacroix,glacroix@gmail.com,05 47 32 30 61,460 869 322 64811,Normandie,126.24,Vigne,Calcaire,Aspersion,2025-05-25,50000
+P0472,André Vidal,vidal.andre@orange.fr,06 97 22 59 84,528 520 293 93416,Occitanie,124.17,Blé,Calcaire,Goutte-à-goutte,2025-03-06,65000
+P0473,Manon Laurent,,+33 5 75 34 30 68,995 345 279 71888,Grand Est,178.94,Maïs,Calcaire,Aucune,2024-05-08,52000
+P0474,Nicolas Gautier,nicolas21@sfr.fr,01 14 97 96 62,581 982 494 19222,Bourgogne-Franche-Comté,107.7,Colza,Argileux,Aucune,2025-02-10,21000
+P0475,Nathalie Faure,nathalie.faure@yahoo.fr,07 84 24 31 56,447 245 348 73254,Grand Est,138.9,Tournesol,Calcaire,Aspersion,2025-04-10,88000
+P0476,Étienne Blanc,etienne5@agricole.coop,07 13 38 57 82,398 414 833 30749,Normandie,88.25,Vigne,Limoneux,Aspersion,2024-04-28,14000
+P0477,Pierre Gérard,gerard.pierre@agricole.coop,0564471544,274 452 759 30431,Normandie,75.19,Tournesol,Limoneux,Aucune,2024-05-13,XXXXX
+P0478,François Rousseau,francois.rousseau@wanadoo.fr,07 73 68 82 91,960 864 966 78697,Grand Est,7.05,Blé,Sableux,Goutte-à-goutte,2025-02-26,08000
+P0479,Céline Girard,celine89@wanadoo.fr,+33 2 15 87 44 80,860 294 850 18345,Bretagne,45.9,Colza,Calcaire,Aucune,2024-02-11,29000
+P0480,Philippe Boyer,philippe13@free.fr,07 82 11 84 65,214 837 553 94230,Grand Est,151.23,Blé,Sableux,Aucune,2025-05-21,55000
+P0481,Laurent Chevalier,laurent69@laposte.net,0551446973,214 874 286 73908,Occitanie,94.37,Maïs,Limoneux,Goutte-à-goutte,2025-04-04,65000
+P0482,Catherine Mathieu,catherine14@free.fr,0352951801,583 205 801 49329,Normandie,65.09,Maïs,Calcaire,Aspersion,2024-03-11,50000
+P0483,Léa Henry,henry.lea@laposte.net,07 57 28 49 52,949 863 422 68944,Auvergne-Rhône-Alpes,83.72,Tournesol,Argileux,Aucune,2025-03-15,69000
+P0484,Benoît Brunet,brunet.benoit@laposte.net,,491 433 671 83396,Grand Est,88.3,Vigne,Argileux,Goutte-à-goutte,2024-03-11,08000
+P0485,Laurent Bernard,bernard.laurent@yahoo.fr,0417961369,754 450 382 80503,Centre-Val de Loire,94.63,Blé,Sableux,Aucune,2024-03-19,37000
+P0486,Aurélie Laurent,laurent.aurelie@outlook.fr,07 98 12 27 18,816 828 856 51151,Centre-Val de Loire,176.97,Maïs,Sableux,Aucune,2024-05-12,18000
+P0487,Chloé Bonnet,chloe.bonnet@orange.fr,+33 4 72 16 77 17,624 482 116 84149,Bourgogne-Franche-Comté,174.68,Vigne,Calcaire,Gravitaire,2025-02-24,25000
+P0488,Aurélie Caron,acaron@outlook.fr,06 19 97 65 45,856 255 766 53310,Nouvelle-Aquitaine,91.08,Tournesol,Argileux,Aucune,2025-02-20,33000
+P0489,Jean Fournier,fournier.jean@free.fr,06 83 55 83 29,251 311 415 33800,Nouvelle-Aquitaine,169.02,Maïs,Sableux,Goutte-à-goutte,2025-04-08,24000
+P0490,Sylvie Roux,roux.sylvie@free.fr,,550 226 954 59166,Occitanie,148.11,Tournesol,Argileux,Aucune,2025-05-07,81000
+P0491,Émilie Arnaud,emilie.arnaud@outlook.fr,06 25 72 87 55,424 525 295 37568,Nouvelle-Aquitaine,51.43,Blé,Calcaire,Goutte-à-goutte,2024-05-26,64000
+P0492,Daniel Muller,muller.daniel@hotmail.fr,04 70 12 45 92,146 244 967 42636,Bretagne,31.57,Tournesol,Argileux,Goutte-à-goutte,2024-04-12,22000
+P0493,Thierry David,thierry95@wanadoo.fr,02 13 73 36 49,482 961 371 91515,Centre-Val de Loire,,Blé,Calcaire,Goutte-à-goutte,2024-05-02,36000
+P0494,Lucas Perrin,lucas.perrin@sfr.fr,01 70 69 63 78,977 717 928 93473,Occitanie,180.63,Maïs,Sableux,Gravitaire,2024-05-16,12000
+P0495,Philippe Lefebvre,philippe.lefebvre@wanadoo.fr,+33 3 88 23 41 38,847 775 408 53073,Pays de la Loire,115.64,Vigne,Limoneux,Gravitaire,2025-04-22,44000
+P0496,Emma Pichon,emma.pichon@free.fr,02 30 60 51 11,595 978 452 34608,Normandie,90.91,Vigne,Calcaire,Goutte-à-goutte,2025-04-11,14000
+P0497,Alain Rousseau,alain.rousseau@outlook.fr,07 76 43 18 56,126 656 229 22397,Grand Est,24.5,Vigne,Limoneux,Gravitaire,2025-05-14,57000
+P0498,Colette Chevalier,colette25@outlook.fr,06 12 35 55 77,255 676 980 79541,Hauts-de-France,108.12,Colza,Limoneux,Gravitaire,2024-02-22,02000
+P0499,René Martinez,rmartinez@outlook.fr,07 16 61 47 59,531 587 579 52194,Bretagne,15.44,Colza,Sableux,Aspersion,2024-02-25,22000
+P0500,Laurent Arnaud,laurent51@free.fr,+33 5 34 41 54 19,382 243 511 26183,Normandie,88.95,Vigne,Sableux,Goutte-à-goutte,2024-04-17,61000

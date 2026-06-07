@@ -1,0 +1,34 @@
+# Dossiers à exclure entièrement
+venv/
+.pi/
+doc/
+examen/
+__pycache__/
+.ipynb_checkpoints/
+mlruns/
+
+# Fichiers de suivi projet (hors livrables)
+AGENTS.md
+projet.md
+ideessuite.md
+mlruns.db
+nul
+
+# Scripts de build et correctifs (racine uniquement)
+/*.py
+
+# Data : garder uniquement les CSV sources et les modèles sérialisés pour l'API
+data/*
+!data/parcelles.csv
+!data/observations.csv
+!data/modele_xgboost_optuna.pkl
+!data/preprocessor.pkl
+!data/scaler.pkl
+
+# Notebooks : garder uniquement les deux livrables
+notebooks/*
+!notebooks/01_application.ipynb
+!notebooks/02_reeentrainement.ipynb
+
+# API : exclure le cache Python
+api/__pycache__/
