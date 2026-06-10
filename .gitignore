@@ -13,6 +13,8 @@ projet.md
 ideessuite.md
 mlruns.db
 nul
+presentation.html
+temp_slide.txt
 
 # Scripts de build et correctifs (racine uniquement)
 /*.py

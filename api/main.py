@@ -4,10 +4,12 @@ FastAPI + XGBoost + SHAP
 """
 
 import joblib
+import shap
 import numpy as np
 import pandas as pd
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import List, Optional
 
@@ -24,20 +26,33 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# CORS — autorise les appels depuis la présentation HTML ouverte en local
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Chargement au démarrage
 try:
     modele = joblib.load(MODELE_PATH)
     preprocessor = joblib.load(PREPROCESSOR_PATH)
     scaler = joblib.load(SCALER_PATH)
+    # SHAP TreeExplainer (optimisé pour XGBoost, sans background dataset)
+    explainer = shap.TreeExplainer(modele)
     print(f"Modèle chargé : {MODELE_PATH}")
     print(f"Préprocesseur chargé : {PREPROCESSOR_PATH}")
     print(f"Scaler chargé : {SCALER_PATH}")
+    print(f"SHAP Explainer initialisé (TreeExplainer)")
 except FileNotFoundError as e:
     print(f"Fichier(s) manquant(s) : {e}")
     print("Exécutez d'abord le notebook 01_application.ipynb pour générer les .pkl")
     modele = None
     preprocessor = None
     scaler = None
+    explainer = None
 
 # ─── Schémas Pydantic ─────────────────────────────────────────────────────────
 class ObservationInput(BaseModel):
@@ -77,11 +92,18 @@ class ObservationInput(BaseModel):
             }
         }
 
+class ContributionSHAP(BaseModel):
+    """Contribution SHAP d'une variable pour une prédiction."""
+    variable: str = Field(..., description="Nom de la variable")
+    contribution: float = Field(..., description="Valeur SHAP (positive = augmente le risque, négative = le réduit)")
+    direction: str = Field(..., description="Sens de l'impact : 'augmente le risque' ou 'réduit le risque'")
+
 class PredictionOutput(BaseModel):
     """Résultat de la prédiction."""
     anomalie_predite: int = Field(..., description="0 = Normal, 1 = Anomalie")
     probabilite_anomalie: float = Field(..., description="Probabilité d'anomalie (0 à 1)")
     facteurs_principaux: List[str] = Field(default=[], description="Facteurs les plus influents")
+    contributions_shap: List[ContributionSHAP] = Field(default=[], description="Détail SHAP des 5 variables les plus influentes")
     message: str = Field(..., description="Interprétation humaine")
 
 # ─── Endpoints ────────────────────────────────────────────────────────────────
@@ -99,7 +121,7 @@ def health():
 @app.post("/predict", response_model=PredictionOutput)
 def predict(obs: ObservationInput):
     """Prédit si une observation correspond à une anomalie parcellaire."""
-    if modele is None or preprocessor is None or scaler is None:
+    if modele is None or preprocessor is None or scaler is None or explainer is None:
         raise HTTPException(
             status_code=503,
             detail="Modèle non chargé. Exécutez d'abord le notebook d'entraînement."
@@ -137,7 +159,6 @@ def predict(obs: ObservationInput):
     X_encoded = preprocessor.transform(df_input)
 
     # Standardisation UNIQUEMENT des colonnes numériques (passthrough)
-    # Le scaler a été entraîné sur les colonnes numériques uniquement (voir notebook Phase 4)
     noms_features = preprocessor.get_feature_names_out()
     idx_debut_num = sum(1 for n in noms_features if n.startswith('onehot__') or n.startswith('ordinal__'))
     X_encoded[:, idx_debut_num:] = scaler.transform(X_encoded[:, idx_debut_num:])
@@ -145,6 +166,43 @@ def predict(obs: ObservationInput):
     # Prédiction
     proba = float(modele.predict_proba(X_encoded)[0, 1])
     prediction = int(proba >= 0.5)
+
+    # Calcul des valeurs SHAP pour cette observation
+    shap_values = explainer.shap_values(X_encoded)
+    # Pour XGBoost binaire, shap_values est une matrice (1, n_features)
+    shap_row = shap_values[0]
+
+    # Associer chaque feature à sa valeur SHAP et son nom
+    feature_contributions = []
+    for i, nom in enumerate(noms_features):
+        # Simplifier les noms : enlever les préfixes onehot__ / ordinal__ / remainder__
+        nom_simple = nom
+        for prefix in ['onehot__', 'ordinal__', 'remainder__']:
+            if nom_simple.startswith(prefix):
+                nom_simple = nom_simple[len(prefix):]
+        feature_contributions.append({
+            'variable': nom_simple,
+            'valeur_shap': float(shap_row[i]),
+            'valeur_absolue': abs(float(shap_row[i]))
+        })
+
+    # Trier par impact absolu décroissant et prendre les 5 plus influents
+    feature_contributions.sort(key=lambda x: x['valeur_absolue'], reverse=True)
+    top5 = feature_contributions[:5]
+
+    # Construire les contributions SHAP détaillées
+    contributions_shap = []
+    facteurs_principaux = []
+    for f in top5:
+        direction = "augmente le risque" if f['valeur_shap'] > 0 else "réduit le risque"
+        contributions_shap.append(ContributionSHAP(
+            variable=f['variable'],
+            contribution=round(f['valeur_shap'], 5),
+            direction=direction
+        ))
+        # Pour la liste courte, on prend les 3 premiers
+        if len(facteurs_principaux) < 3:
+            facteurs_principaux.append(f['variable'])
 
     # Message interprétable
     if prediction == 1:
@@ -161,7 +219,8 @@ def predict(obs: ObservationInput):
     return PredictionOutput(
         anomalie_predite=prediction,
         probabilite_anomalie=round(proba, 4),
-        facteurs_principaux=["NDVI", "EcartRendement", "Temperature"],
+        facteurs_principaux=facteurs_principaux,
+        contributions_shap=contributions_shap,
         message=message
     )
 

@@ -2,33 +2,34 @@
 
 Système de détection d'anomalies parcellaires par Machine Learning pour une coopérative agricole régionale.
 
-## 📋 Contexte
+## Contexte
 
 L'agriculture de précision exploite des données issues de capteurs au sol, satellites, drones et stations météo pour détecter précocement les anomalies sur les parcelles agricoles (stress hydrique, maladies, dysfonctionnements d'irrigation).
 
 Ce projet vise à concevoir un modèle de classification binaire capable de distinguer les situations **normales** des **anomalies nécessitant une intervention**, à partir de données d'observation historiques.
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 CISIA_Agri/
-├── README.md                     # Ce fichier décrit la structure du projet, et comment le mettre en oeuvre et tester
-├── requirements.txt              # Liste des bibliothèques python à installer
-├── .gitignore                    # Fichier du dossier ignoré pour un envoi du projet sur github
-├── Dockerfile                    # Conteneurisation de l'API vi Docker
-├── journal_bord.md               # Journal de bord réalisé sur le développement effectué
-├── api/
-│   └── main.py                   # API FastAPI
-├── data/
-│   ├── parcelles.csv             # 500 parcelles agricoles
-│   └── observations.csv          # 10 000 relevés d'observation
-├── notebooks/
-│   ├── 01_application.ipynb      # Notebook principal (application)
-│   └── 02_reeentrainement.ipynb  # MLOps : réentraînement & comparaison
-└── venv/                         # Environnement virtuel Python
+README.md # Ce fichier décrit la structure du projet, et comment le mettre en oeuvre et tester
+requirements.txt # Liste des bibliothèques python à installer
+.gitignore # Fichier du dossier ignoré pour un envoi du projet sur github
+Dockerfile # Conteneurisation de l'API vi Docker
+presentation.html # Présentation Reveal.js (client final)
+journal_bord.md # Journal de bord réalisé sur le développement effectué
+api/
+main.py # API FastAPI
+data/
+parcelles.csv # 500 parcelles agricoles
+observations.csv # 10 000 relevés d'observation
+notebooks/
+01_application.ipynb # Notebook principal (application)
+02_reeentrainement.ipynb # MLOps : réentraînement & comparaison
+venv/ # Environnement virtuel Python
 ```
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Créer l'environnement virtuel
@@ -41,7 +42,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📓 Notebooks
+## Notebooks
 
 Deux notebooks Jupyter sont fournis, à exécuter **dans l'ordre**.
 
@@ -86,7 +87,7 @@ Dans l'interface Jupyter, naviguer vers le dossier `notebooks/` et ouvrir les fi
 
 ---
 
-## 🌐 API de prédiction
+## API de prédiction
 
 Une API REST permet d'interroger le modèle entraîné en conditions réelles.
 
@@ -115,20 +116,20 @@ Ouvrir `http://localhost:8000/docs` dans un navigateur, cliquer sur `POST /predi
 
 ```powershell
 $body = @{
-    temperature = 22.5
-    humidite = 65.0
-    pluviometrie_mm = 3.2
-    ndvi = 0.68
-    capteur = "Drone"
-    stade_culture = "Floraison"
-    rendement_estime = 7.8
-    rendement_moyen_zone = 8.1
-    type_culture = "Blé"
-    type_sol = "Limoneux"
-    region = "Occitanie"
-    irrigation = "Goutte-à-goutte"
-    surface_ha = 12.5
-    age_culture_jours = 95
+temperature = 22.5
+humidite = 65.0
+pluviometrie_mm = 3.2
+ndvi = 0.68
+capteur = "Drone"
+stade_culture = "Floraison"
+rendement_estime = 7.8
+rendement_moyen_zone = 8.1
+type_culture = "Blé"
+type_sol = "Limoneux"
+region = "Occitanie"
+irrigation = "Goutte-à-goutte"
+surface_ha = 12.5
+age_culture_jours = 95
 } | ConvertTo-Json
 
 Invoke-RestMethod -Uri http://localhost:8000/predict -Method Post -Body $body -ContentType "application/json" | ConvertTo-Json
@@ -138,10 +139,10 @@ Invoke-RestMethod -Uri http://localhost:8000/predict -Method Post -Body $body -C
 
 ```json
 {
-  "anomalie_predite": 0,
-  "probabilite_anomalie": 0.1234,
-  "facteurs_principaux": ["NDVI", "EcartRendement", "Temperature"],
-  "message": "Situation normale avec une confiance élevée."
+"anomalie_predite": 0,
+"probabilite_anomalie": 0.1234,
+"facteurs_principaux": ["NDVI", "EcartRendement", "Temperature"],
+"message": "Situation normale avec une confiance élevée."
 }
 ```
 
@@ -151,22 +152,39 @@ Invoke-RestMethod -Uri http://localhost:8000/predict -Method Post -Body $body -C
 # Le logiciel Docker doit être lancé
 
 # Construction de l'image
-docker build -t cisia-agri-api .
+docker build -t CISIA_Agri .
 
-# Lancement du conteneur (nommé CISIA_Agri)
-docker run --name CISIA_Agri -p 8000:8000 cisia-agri-api
+# Lancement du conteneur
+# Depuis le terminal, lancer :
+docker run --name CISIA_Agri -p 8000:8000 CISIA_Agri
 ```
 
 L'option `--name` évite le nom aléatoire attribué par Docker (ex: `gallant_bohr`).
-Une fois lancé, on peut tester l'api via Swagger : 
+Une fois lancé, on peut tester l'api via Swagger :
 
 Pour relancer un conteneur déjà créé :
 ```bash
 docker start CISIA_Agri
 ```
 
+## Présentation Client
 
-## 🛠️ Stack technique
+Une présentation **Reveal.js** est disponible dans le fichier `presentation.html`.
+
+**Contenu :** 28 slides couvrant l'ensemble de la démarche projet, de la problématique à l'amélioration continue, sans aucun code — destinée à un public métier (coopérative agricole).
+
+**Lancement :**
+- **Via Docker** : accéder à `http://localhost:8000/` après avoir lancé le conteneur (le test API intégré fonctionne automatiquement)
+- **En local** : ouvrir simplement `presentation.html` dans un navigateur web (double-clic) — l'API doit être lancée séparément via `uvicorn api.main:app --reload`
+
+Navigation :
+- Flèches droite/gauche pour avancer/reculer
+- `ESPACE` pour avancer
+- `Échap` pour la vue d'ensemble
+- `F` pour le mode plein écran
+
+
+## Stack technique
 
 | Catégorie | Outils |
 |---|---|
@@ -180,17 +198,17 @@ docker start CISIA_Agri
 | API | FastAPI, Pydantic, Uvicorn |
 | Conteneurisation | Docker |
 
-## 🎯 Objectif
+## Objectif
 
 Classification binaire supervisée — variable cible : `AnomalieLabel` (0 = normal, 1 = anomalie).
 
-## 📊 Données
+## Données
 
 - **parcelles.csv** : 500 parcelles (identifiant, région, surface, type de culture, type de sol, irrigation)
 - **observations.csv** : 10 000 relevés (température, humidité, pluviométrie, NDVI, stade culture, rendement)
 
 Les deux fichiers sont liés par la colonne `ParcelleID`.
 
-## 📝 Licence
+## Licence
 
 Projet réalisé dans le cadre de la certification CISIA.

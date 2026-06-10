@@ -1,4 +1,4 @@
-# 📓 Journal de bord — Détection d'anomalies parcellaires
+# Journal de bord — Détection d'anomalies parcellaires
 
 **Projet :** Certification CISIA — Agriculture de précision
 **Auteur :** Patrick LEVENEUR
@@ -23,7 +23,7 @@ Constatation du fait que certaines données sont abhérentes (humidité > 100%, 
 Cela signifie qu'il faudra trouver un moyen fonction des cas pour soit remplacer la donnée, soit supprimer la ligne complète.
 
 ### Recherche sur la signification de certains noms de colonne inconnues et spécifique au domaine agricole
-**NDVI** : Le NDVI (pour Normalized Difference Vegetation Index, ou Indice de Végétation par Différence Normalisée) est un indicateur crucial en agriculture de précision. 
+**NDVI** : Le NDVI (pour Normalized Difference Vegetation Index, ou Indice de Végétation par Différence Normalisée) est un indicateur crucial en agriculture de précision.
 Il permet d'évaluer, de manière objective et quantifiable, la santé et la vigueur de la végétation sur une parcelle.
 - Valeur est proche de 1 : Végétation très dense et en excellente santé.
 - Entre 0,3 et 0,6 : Végétation modérée (cultures en croissance ou moins denses).
@@ -48,7 +48,7 @@ L'analyse des données confirmeront ou pas ces hypothèse.
 
 **Hypothèse :** Une parcelle dont le rendement estimé est significativement inférieur au rendement moyen de sa zone est probablement en anomalie.
 
-**Vérification :** Création des variables `EcartRendement_t_ha` et `RatioRendement` en Phase 3, puis analyse de leur importance via SHAP. 
+**Vérification :** Création des variables `EcartRendement_t_ha` et `RatioRendement` en Phase 3, puis analyse de leur importance via SHAP.
 ![collage](images/collage_1.png)
 
 **Conclusion :** L'hypothèse n'est pas bonne. Une bonne partie confirme cette hypothèse mais une autre bonne partie ne le confirme pas.
@@ -65,7 +65,7 @@ Cela signifie que l'anomalie n'est pas forcément liée au rendement comparée a
 On voit bien que les différents capteurs donnent sensiblement le même taux d'anomalie.
 
 
---- 
+---
 
 
 
@@ -111,14 +111,14 @@ Mon projet est sur des **données agricoles tabulaires** — pas de texte libre,
 | **langdetect / langid / fasttext** | Détection de langue inutile — les données sont en français, pas de contenu multilingue |
 | **sentence-transformers** | Embeddings sémantiques — pas de similarité textuelle à calculer |
 
-**Synthèse :** J'ai conservé les outils **ML classique** de M7 (le cœur de mon projet) et les outils **MLOps/industrialisation** de M1 à M6 (FastAPI, Docker, PSI). 
+**Synthèse :** J'ai conservé les outils **ML classique** de M7 (le cœur de mon projet) et les outils **MLOps/industrialisation** de M1 à M6 (FastAPI, Docker, PSI).
 J'ai écarté tout ce qui est spécifique au NLP, sans hésitation — ce serait du surapprentissage d'outil, pas de la résolution de problème.
 
 #### Outils de développement
 - Agent de codate pi (pi.dev) : simpliste, donne l'avantage de pouvoir utiliser ollama
 - ollama : gestion du LLM
-  - avantage : moins cher (abonnement de 17 € / mois suffisant pour le développement à faire) et utilisation de plusieurs modèles possibles
-  - modèle cloud utilisé : DeepSeek V4 PRO
+- avantage : moins cher (abonnement de 17 € / mois suffisant pour le développement à faire) et utilisation de plusieurs modèles possibles
+- modèle cloud utilisé : DeepSeek V4 PRO
 - Outil maison que j'ai développé (pilot) : intègre un explorateur et un éditeur de fichier textes et markdown.
 
 
@@ -139,9 +139,9 @@ Le projet suit un **pipeline en 7 phases**, calé sur les 9 compétences CISIA e
 
 **Pourquoi cet ordre ?**
 
-Chaque phase alimente la suivante, sans exception. 
-On ne peut pas entraîner un modèle (Phase 4) sans avoir nettoyé les données (Phase 2) ni créé les bonnes colonnes (Phase 3). 
-On ne peut pas servir le modèle (Phase 6) sans l'avoir évalué (Phase 5). 
+Chaque phase alimente la suivante, sans exception.
+On ne peut pas entraîner un modèle (Phase 4) sans avoir nettoyé les données (Phase 2) ni créé les bonnes colonnes (Phase 3).
+On ne peut pas servir le modèle (Phase 6) sans l'avoir évalué (Phase 5).
 Et on ne simule pas l'amélioration continue (Phase 7) sans un modèle en production.
 
 J'ai délibérément placé la **conformité RGPD en Phase 1** (et pas en fin de projet) parce que les données personnelles n'ont aucune utilité pour la prédiction parcellaire,
@@ -171,16 +171,16 @@ C'est la même architecture que le projet M7 (un notebook principal de ~120 cell
 
 **Décision :** Suppression des 4 colonnes.
 
-**Justification :** L'unité d'analyse est la **parcelle**, pas l'exploitation. Regrouper par exploitant n'apporte pas de valeur prédictive. 
-Le hachage, même mathématiquement robuste, conserve une donnée indirectement identifiante — si un attaquant dispose de la base SIRENE publique, il peut reconstituer le lien. 
+**Justification :** L'unité d'analyse est la **parcelle**, pas l'exploitation. Regrouper par exploitant n'apporte pas de valeur prédictive.
+Le hachage, même mathématiquement robuste, conserve une donnée indirectement identifiante — si un attaquant dispose de la base SIRENE publique, il peut reconstituer le lien.
 La suppression est la seule option qui garantit une conformité RGPD absolue (principe de minimisation des données, article 5 du RGPD).
 
 #### Problème : Parcelles orphelines (sans observations)
 
-**Problème :** Après la fusion (Left Join), j'ai détecté que certaines parcelles du fichier `parcelles.csv` n'avaient aucune observation associée dans `observations.csv`, 
+**Problème :** Après la fusion (Left Join), j'ai détecté que certaines parcelles du fichier `parcelles.csv` n'avaient aucune observation associée dans `observations.csv`,
 et inversement, des observations référençaient des `ParcelleID` inexistants.
 
-**Solution :** J'ai affiché explicitement la liste des parcelles sans observations (avec leur nombre) et le nombre d'observations avec une `ParcelleID` orpheline. 
+**Solution :** J'ai affiché explicitement la liste des parcelles sans observations (avec leur nombre) et le nombre d'observations avec une `ParcelleID` orpheline.
 Ces observations orphelines sont inutilisables car il manque toutes les caractéristiques de la parcelle (culture, sol, irrigation, etc.) — elles sont donc exclues de l'analyse.
 
 #### Problème : Affichage des types de données
@@ -269,7 +269,7 @@ C'est un détail mais il rend le notebook plus accessible à un lectorat non tec
 
 #### Problème : Stades non définis dans l'ordre chronologique (bug d'apostrophe)
 
-**Problème :** La vérification `print(f'⚠️ Stades non définis dans l'ordre...')` causait une `SyntaxError` à cause de l'apostrophe dans `l'ordre`.
+**Problème :** La vérification `print(f' Stades non définis dans l'ordre...')` causait une `SyntaxError` à cause de l'apostrophe dans `l'ordre`.
 
 **Solution :** Même correctif que précédemment : guillemets doubles pour la chaîne, guillemets simples échappés pour l'apostrophe.
 
@@ -349,29 +349,29 @@ Pour rendre le modèle opérationnel au sein de la coopérative, l'architecture 
 
 ```
 Capteurs (Satellite, Drone, Station, Manuel)
-        │
-        ▼
-┌──────────────────┐
-│  API FastAPI     │  ← Conteneur Docker
-│  POST /predict   │
-│  - reçoit les    │
-│    features      │
-│  - applique      │
-│    preprocessor  │
-│  - prédit        │
-│  - répond {      │
-│      anomalie,   │
-│      proba,      │
-│      shap_values │
-│    }             │
-└──────────────────┘
-        │
-        ▼
-┌──────────────────┐
-│  Dashboard       │  ← Streamlit / intégré aux outils coopérative
-│  Visualisation   │
-│  Alertes         │
-└──────────────────┘
+
+
+
+API FastAPI ← Conteneur Docker
+POST /predict
+- reçoit les
+features
+- applique
+preprocessor
+- prédit
+- répond {
+anomalie,
+proba,
+shap_values
+}
+
+
+
+
+Dashboard ← Streamlit / intégré aux outils coopérative
+Visualisation
+Alertes
+
 ```
 
 #### Améliorations futures identifiées
