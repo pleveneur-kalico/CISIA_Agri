@@ -139,10 +139,37 @@ Invoke-RestMethod -Uri http://localhost:8000/predict -Method Post -Body $body -C
 
 ```json
 {
-"anomalie_predite": 0,
-"probabilite_anomalie": 0.1234,
-"facteurs_principaux": ["NDVI", "EcartRendement", "Temperature"],
-"message": "Situation normale avec une confiance élevée."
+  "anomalie_predite": 0,
+  "probabilite_anomalie": 0.02,
+  "facteurs_principaux": ["NDVI", "RatioRendement", "Pluviometrie_mm"],
+  "contributions_shap": [
+    {
+      "variable": "NDVI",
+      "contribution": -0.09,
+      "direction": "réduit le risque"
+    },
+    {
+      "variable": "RatioRendement",
+      "contribution": -0.08,
+      "direction": "réduit le risque"
+    },
+    {
+      "variable": "Pluviometrie_mm",
+      "contribution": -0.05,
+      "direction": "réduit le risque"
+    },
+    {
+      "variable": "RendementEstime_t_ha",
+      "contribution": -0.04,
+      "direction": "réduit le risque"
+    },
+    {
+      "variable": "Humidite",
+      "contribution": -0.03,
+      "direction": "réduit le risque"
+    }
+  ],
+  "message": "Situation normale avec une confiance élevée."
 }
 ```
 
