@@ -210,9 +210,12 @@ Une présentation est disponible dans le fichier `presentation.html`.
 
 **Contenu :** 28 slides couvrant l'ensemble de la démarche projet, de la problématique à l'amélioration continue, sans aucun code — destinée à un public métier (coopérative agricole).
 
-**Lancement :**
-- **Via Docker** : accéder à `http://localhost:8000/` après avoir lancé le conteneur (le test API intégré fonctionne automatiquement)
-- **En local** : ouvrir simplement `presentation.html` dans un navigateur web (double-clic) — l'API doit être lancée séparément via `uvicorn api.main:app --reload`
+**Lancement :** ouvrir simplement `presentation.html` dans un navigateur web (double-clic).
+
+L'API doit être lancée séparément pour que le test interactif fonctionne :
+```bash
+python -m uvicorn api.main:app --reload
+```
 
 Navigation :
 - Flèches droite/gauche pour avancer/reculer
