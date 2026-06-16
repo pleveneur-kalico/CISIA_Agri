@@ -206,7 +206,7 @@ docker rm -f CISIA_Agri
 
 ## Présentation Client
 
-Une présentation **Reveal.js** est disponible dans le fichier `presentation.html`.
+Une présentation est disponible dans le fichier `presentation.html`.
 
 **Contenu :** 28 slides couvrant l'ensemble de la démarche projet, de la problématique à l'amélioration continue, sans aucun code — destinée à un public métier (coopérative agricole).
 
