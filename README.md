@@ -63,11 +63,11 @@ Dans l'interface Jupyter, naviguer vers le dossier `notebooks/` et ouvrir les fi
 | 1 | Ingestion des données, fusion, mise en conformité RGPD |
 | 2 | Nettoyage (valeurs aberrantes, imputation), analyse exploratoire |
 | 3 | Feature engineering (âge culture, écarts rendement), encodage One-Hot et Ordinal |
-| 4 | Modélisation : Régression Logistique → Random Forest → XGBoost + Optuna + MLflow |
+| 4 | Modélisation : Régression Logistique → Random Forest → XGBoost, sélection automatique du meilleur + Optuna + MLflow |
 | 5 | Évaluation (ROC, matrice de confusion, SHAP), architecture cible |
 
 **À exécuter en premier.** Il génère les fichiers nécessaires au reste du projet :
-- `data/modele_xgboost_optuna.pkl` — modèle entraîné
+- `data/modele_final_optuna.pkl` — modèle entraîné (type détecté automatiquement : Random Forest ou XGBoost)
 - `data/preprocessor.pkl` — préprocesseur (OneHot + Ordinal)
 - `data/scaler.pkl` — standardisation
 
@@ -152,11 +152,11 @@ Invoke-RestMethod -Uri http://localhost:8000/predict -Method Post -Body $body -C
 # Le logiciel Docker doit être lancé
 
 # Construction de l'image
-docker build -t CISIA_Agri .
+docker build -t cisia-agri .
 
 # Lancement du conteneur
 # Depuis le terminal, lancer :
-docker run --name CISIA_Agri -p 8000:8000 CISIA_Agri
+docker run --name CISIA_Agri -p 8000:8000 cisia-agri
 ```
 
 L'option `--name` évite le nom aléatoire attribué par Docker (ex: `gallant_bohr`).
@@ -165,6 +165,16 @@ Une fois lancé, on peut tester l'api via Swagger :
 Pour relancer un conteneur déjà créé :
 ```bash
 docker start CISIA_Agri
+```
+
+Pour arrêter le conteneur :
+```bash
+docker stop CISIA_Agri
+```
+
+Pour supprimer le conteneur (avant de le recréer) :
+```bash
+docker rm -f CISIA_Agri
 ```
 
 ## Présentation Client
@@ -190,7 +200,7 @@ Navigation :
 |---|---|
 | Manipulation de données | pandas, numpy |
 | Visualisation | matplotlib, seaborn, missingno |
-| Machine Learning | scikit-learn, XGBoost |
+| Machine Learning | scikit-learn, XGBoost (sélection automatique RF / XGBoost) |
 | Gestion déséquilibre | imbalanced-learn (SMOTE) |
 | Optimisation | Optuna |
 | Explicabilité | SHAP |

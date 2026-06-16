@@ -7,25 +7,37 @@ __pycache__/
 .ipynb_checkpoints/
 mlruns/
 
-# Fichiers de suivi projet (hors livrables)
+# Fichiers internes (hors livrables)
 AGENTS.md
 projet.md
 ideessuite.md
 mlruns.db
 nul
-presentation.html
-temp_slide.txt
 
-# Scripts de build et correctifs (racine uniquement)
-/*.py
+# Fichiers temporaires
+temp_*.txt
+temp_*.py
+fix_*.py
+update_*.py
+*.pyc
 
-# Data : garder uniquement les CSV sources et les modèles sérialisés pour l'API
+# ZIP de livraison
+CISIA_Agri.zip
+
+# Data : garder les CSV sources et tous les modèles/scaleurs nécessaires
 data/*
 !data/parcelles.csv
 !data/observations.csv
-!data/modele_xgboost_optuna.pkl
+!data/dataset_clean.csv
+!data/modele_final_optuna.pkl
+!data/modele_v1_production.pkl
+!data/modele_v2_candidat.pkl
 !data/preprocessor.pkl
+!data/preprocessor_v1.pkl
+!data/preprocessor_v2.pkl
 !data/scaler.pkl
+!data/scaler_v1.pkl
+!data/scaler_v2.pkl
 
 # Notebooks : garder uniquement les deux livrables
 notebooks/*

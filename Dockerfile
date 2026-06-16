@@ -5,7 +5,7 @@ FROM python:3.11-slim
 
 # Métadonnées
 LABEL maintainer="CISIA Agriculture"
-LABEL description="API REST de détection d'anomalies parcellaires par XGBoost"
+LABEL description="API REST de détection d'anomalies parcellaires"
 
 # Répertoire de travail
 WORKDIR /app
@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copie du code et des données
 COPY api/ ./api/
-COPY data/modele_xgboost_optuna.pkl ./data/
+COPY data/modele_final_optuna.pkl ./data/
 COPY data/preprocessor.pkl ./data/
 COPY data/scaler.pkl ./data/
 

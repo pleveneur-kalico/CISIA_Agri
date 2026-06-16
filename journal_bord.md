@@ -40,9 +40,9 @@ L'analyse des données confirmeront ou pas ces hypothèse.
 **Hypothèse :** L'indice de végétation NDVI est l'indicateur principal d'une anomalie parcellaire. Une baisse anormale du NDVI (végétation stressée) devrait être fortement corrélée à `AnomalieLabel = 1`.
 
 **Vérification :** Lors de l'EDA (Phase 2), j'ai comparé les distributions de NDVI entre Normal et Anomalie, puis tracé le nuage NDVI × Rendement pour visualiser les clusters.
-![collage](images/collage.png)
+![Boxplot NDVI](images/NDVI_boxplot.png)
 
-**Conclusion :** L'image confirme donc que le NDVI est important. Plus le NDVI est inexistant, plus il y a d'anomalies, mais ce n'est pas général. Cela signifie que ça dépend aussi d'autre chose.
+**Conclusion :** Le boxplot montre que le NDVI médian des anomalies (~0,45) est nettement inférieur à celui des situations normales (~0,68). Le NDVI est donc un signal fort, mais les deux distributions se chevauchent largement : certaines anomalies ont un NDVI élevé, et certaines parcelles saines ont un NDVI bas. Le NDVI seul ne suffit pas.
 
 #### Hypothèse 2 : L'écart au rendement moyen est un signal fort
 
@@ -285,19 +285,21 @@ C'est un détail mais il rend le notebook plus accessible à un lectorat non tec
 
 ### Phase 4 — Modélisation
 
-#### Choix : XGBoost comme modèle principal
+#### Choix : Sélection dynamique du meilleur modèle
 
-**Décision :** XGBoost retenu après comparaison avec Régression Logistique (baseline) et Random Forest.
+**Décision :** Au lieu de choisir un modèle a priori, je compare les 3 algorithmes (Régression Logistique, Random Forest, XGBoost) et je **sélectionne automatiquement celui qui obtient le meilleur F1-Score** sur le jeu de test.
 
 **Justification :**
-- **Performances** : XGBoost domine régulièrement les benchmarks sur données tabulaires hétérogènes
-- **Gestion native des NaN** : sécurité supplémentaire même après imputation
-- **Feature importance native** : essentiel pour expliquer les prédictions à la coopérative
-- **scale_pos_weight** : paramètre natif pour gérer le déséquilibre résiduel
+- **Objectivité** : Pas de biais vers un algorithme — les données décident
+- **Reproductibilité** : Si les données changent demain, un autre modèle pourrait être sélectionné
+- **Transparence** : Le tableau comparatif est affiché dans le notebook, le jury voit les métriques des 3 modèles
+- Sur ce jeu de données, **Random Forest a obtenu le meilleur F1-Score** et a donc été retenu pour l'optimisation Optuna
+
+**L'optimisation Optuna adapte son espace de recherche** au modèle retenu : hyperparamètres Random Forest si c'est RF, hyperparamètres XGBoost si c'est XGBoost. Le modèle final est sauvegardé sous `modele_final_optuna.pkl` (nom générique, pas de référence à un algorithme).
 
 **Alternative écartée (Deep Learning) :** Disproportionné pour 10 000 observations, moins interprétable, nécessite un GPU, temps d'entraînement plus long — sans gain de performance attendu sur ce type de données.
 
-**Alternative écartée (SVC) :** Temps d'entraînement prohibitif (O(n²) ou O(n³)), sensible au scaling, recommandation du formateur pour XGBoost.
+**Alternative écartée (SVC) :** Temps d'entraînement prohibitif (O(n²) ou O(n³)), sensible au scaling.
 
 #### Problème : NaN résiduels avant SMOTE
 
@@ -410,7 +412,7 @@ L'API expose trois endpoints :
 | `GET /docs` | Documentation Swagger interactive (test sans code) |
 | `POST /predict` | Prédiction : reçoit les 14 caractéristiques, applique le feature engineering, le préprocesseur, le scaler, et retourne la prédiction |
 
-Le modèle chargé est celui du notebook 01 (`modele_xgboost_optuna.pkl` + `preprocessor.pkl` + `scaler.pkl`). **L'API n'utilise pas les modèles V1/V2 du notebook 02** — ces derniers servent à la comparaison et à la décision de réentraînement, pas au service en production.
+Le modèle chargé est celui du notebook 01 (`modele_final_optuna.pkl` + `preprocessor.pkl` + `scaler.pkl`). Le type de modèle (Random Forest ou XGBoost) est détecté automatiquement via `type(modele).__name__`. **L'API n'utilise pas les modèles V1/V2 du notebook 02** — ces derniers servent à la comparaison et à la décision de réentraînement, pas au service en production.
 
 #### Problème : Décalage de colonnes entre l'API et le préprocesseur
 
@@ -463,7 +465,7 @@ Cette phase concrétise la compétence C9 (amélioration continue) via un **scé
 
 Le notebook `02_reeentrainement.ipynb` reprend l'intégralité du pipeline (nettoyage, feature engineering, encodage, SMOTE, XGBoost) pour garantir une comparaison rigoureuse :
 - Mêmes transformations des deux côtés
-- Mêmes hyperparamètres (200 arbres, max_depth=6, learning_rate=0.1)
+- Mêmes hyperparamètres (adaptés au type de modèle détecté automatiquement)
 - Mêmes métriques (ROC-AUC, Recall, F1)
 
 #### Indicateur PSI (Population Stability Index)
@@ -582,8 +584,8 @@ Nous ne savons pas comment le label `AnomalieLabel` a été attribué (expert hu
 | **C1** — Identifier les données | Phase 1 : exploration des CSV, identification des colonnes utiles, jointure |
 | **C2** — Risques éthiques et RGPD | Phase 1 (suppression données personnelles), Phase 2 (biais géographiques, culturaux, instrumentaux) |
 | **C3** — Préparer les données | Phase 2 (nettoyage, bornage, imputation), Phase 3 (feature engineering, encodage) |
-| **C4** — Choisir un modèle | Phase 4 (benchmark Régression Logistique → Random Forest → XGBoost) |
-| **C5** — Entraîner le modèle | Phase 4 (XGBoost, Optuna, SMOTE, validation croisée) |
+| **C4** — Choisir un modèle | Phase 4 (benchmark Régression Logistique → Random Forest → XGBoost, sélection automatique par F1-Score) |
+| **C5** — Entraîner le modèle | Phase 4 (sélection dynamique, Optuna adapté au modèle retenu, SMOTE, validation croisée) |
 | **C6** — Implémenter le modèle | Phase 5 (API FastAPI), Phase 6 (endpoint `/predict`, validation Pydantic, sauvegarde joblib) |
 | **C7** — Architecture cible | Phase 5 (schéma d'intégration), Phase 6 (Dockerfile, conteneurisation, déploiement) |
 | **C8** — Mesurer la performance | Phase 5 (ROC, matrice de confusion, Recall, F1, SHAP) |

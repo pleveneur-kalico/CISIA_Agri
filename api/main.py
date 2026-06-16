@@ -15,7 +15,7 @@ from typing import List, Optional
 
 # ─── Configuration ───────────────────────────────────────────────────────────
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-MODELE_PATH = DATA_DIR / "modele_xgboost_optuna.pkl"
+MODELE_PATH = DATA_DIR / "modele_final_optuna.pkl"
 PREPROCESSOR_PATH = DATA_DIR / "preprocessor.pkl"
 SCALER_PATH = DATA_DIR / "scaler.pkl"
 
@@ -40,7 +40,7 @@ try:
     modele = joblib.load(MODELE_PATH)
     preprocessor = joblib.load(PREPROCESSOR_PATH)
     scaler = joblib.load(SCALER_PATH)
-    # SHAP TreeExplainer (optimisé pour XGBoost, sans background dataset)
+    # SHAP TreeExplainer (compatible Random Forest et XGBoost)
     explainer = shap.TreeExplainer(modele)
     print(f"Modèle chargé : {MODELE_PATH}")
     print(f"Préprocesseur chargé : {PREPROCESSOR_PATH}")
@@ -114,7 +114,7 @@ def health():
         raise HTTPException(status_code=503, detail="Modèle non chargé")
     return {
         "status": "ok",
-        "modele": "XGBoost",
+        "modele": type(modele).__name__,
         "version": "1.0.0"
     }
 
@@ -168,9 +168,14 @@ def predict(obs: ObservationInput):
     prediction = int(proba >= 0.5)
 
     # Calcul des valeurs SHAP pour cette observation
-    shap_values = explainer.shap_values(X_encoded)
-    # Pour XGBoost binaire, shap_values est une matrice (1, n_features)
-    shap_row = shap_values[0]
+    # Gestion compatible Random Forest (3D) et XGBoost (2D)
+    shap_values_raw = explainer.shap_values(X_encoded)
+    if isinstance(shap_values_raw, list):
+        shap_row = shap_values_raw[1][0]
+    elif np.array(shap_values_raw).ndim == 3:
+        shap_row = shap_values_raw[0, :, 1]
+    else:
+        shap_row = shap_values_raw[0]
 
     # Associer chaque feature à sa valeur SHAP et son nom
     feature_contributions = []
