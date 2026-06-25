@@ -15,8 +15,8 @@ CISIA_Agri/
 README.md # Ce fichier décrit la structure du projet, et comment le mettre en oeuvre et tester
 requirements.txt # Liste des bibliothèques python à installer
 .gitignore # Fichier du dossier ignoré pour un envoi du projet sur github
-Dockerfile # Conteneurisation de l'API vi Docker
-presentation.html # Présentation Reveal.js (client final)
+Dockerfile # Conteneurisation de l'API via Docker
+presentation.html # Présentation (client final)
 journal_bord.md # Journal de bord réalisé sur le développement effectué
 api/
 main.py # API FastAPI
@@ -73,7 +73,7 @@ Dans l'interface Jupyter, naviguer vers le dossier `notebooks/` et ouvrir les fi
 
 ### 02_reeentrainement.ipynb — MLOps : amélioration continue
 
-**Objectif :** Simuler un cycle complet de réentraînement (compétence C9).
+**Objectif :** Simuler un cycle complet de réentraînement.
 
 | Étape | Contenu |
 |-------|---------|
@@ -212,7 +212,7 @@ Une présentation est disponible dans le fichier `presentation.html`.
 
 **Lancement :** ouvrir simplement `presentation.html` dans un navigateur web (double-clic).
 
-L'API doit être lancée séparément pour que le test interactif fonctionne :
+L'API doit être lancée séparément pour que le test interactif fonctionne (ou lancé via le conteneur docker) :
 ```bash
 python -m uvicorn api.main:app --reload
 ```
